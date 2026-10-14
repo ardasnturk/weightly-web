@@ -1,12 +1,12 @@
 {
   "name": "weightly-web",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
-  "homepage": "https://weightly.ardasenturk.de",
+  "homepage": "https://weightly.ardasnturk.com",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/postbuild.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

@@ -1,72 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  @apply bg-light-background dark:bg-dark-background;
-}
-
-::-webkit-scrollbar-thumb {
-  @apply bg-light-border dark:bg-dark-border rounded-full;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-light-text-muted dark:bg-dark-text-muted;
-}
-
-/* Focus styles */
-.focus-ring {
-  @apply focus:outline-none focus:ring-2 focus:ring-light-primary dark:focus:ring-dark-primary focus:ring-offset-2 focus:ring-offset-light-background dark:focus:ring-offset-dark-background;
-}
-
-/* Button animations */
-.btn-animate {
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-animate:hover {
-  transform: translateY(-1px);
-}
-
-.btn-animate:active {
-  transform: translateY(0);
-}
-
-/* Loading animation */
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 1;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
-  50% {
-    opacity: 0.5;
+  body {
+    @apply bg-white text-ink-900 antialiased dark:bg-ink-950 dark:text-ink-50;
+  }
+  ::selection {
+    @apply bg-brand-200 text-ink-900;
   }
 }
 
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+  .card {
+    @apply rounded-3xl border border-ink-100 bg-ink-50/60 dark:border-ink-800 dark:bg-ink-900/70;
+  }
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-wider text-brand-600 dark:text-brand-400;
+  }
+  .section-title {
+    @apply text-3xl font-bold tracking-tight sm:text-5xl;
+  }
+  .lead {
+    @apply text-lg leading-relaxed text-ink-600 dark:text-ink-400;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
