@@ -33,7 +33,7 @@
   "features": {
     "eyebrow": "Everything you need",
     "title": "Simple on the surface. Smart underneath.",
-    "subtitle": "Built with SwiftUI for iOS 26 — fast, accessible and designed to feel at home on your iPhone.",
+    "subtitle": "Built with SwiftUI for iOS 26 — fast, accessible and designed to feel at home on your iPhone. Optimized for iPhone Duo: adaptive layouts for the inner and outer displays, with your work preserved as you fold and unfold.",
     "items": {
       "trend": { "title": "Smart trend", "text": "Gap-aware smoothing, weekly rate and plateau detection that tells you when things are simply steady." },
       "health": { "title": "Apple Health sync", "text": "Two-way sync with your smart scale's data, body composition, steps and sleep — without duplicates." },

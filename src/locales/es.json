@@ -33,7 +33,7 @@
   "features": {
     "eyebrow": "Todo lo que necesitas",
     "title": "Sencilla por fuera. Inteligente por dentro.",
-    "subtitle": "Creada con SwiftUI para iOS 26: rápida, accesible y diseñada para sentirse como en casa en tu iPhone.",
+    "subtitle": "Creada con SwiftUI para iOS 26: rápida, accesible y diseñada para sentirse como en casa en tu iPhone. Optimizada para iPhone Duo: diseños adaptables a las pantallas interior y exterior, sin perder tu progreso al plegar y desplegar.",
     "items": {
       "trend": { "title": "Tendencia inteligente", "text": "Suavizado que tiene en cuenta los huecos, ritmo semanal y detección de estancamientos que te dice cuándo todo está simplemente estable." },
       "health": { "title": "Sincronización con Salud", "text": "Sincronización bidireccional con los datos de tu báscula inteligente, composición corporal, pasos y sueño, sin duplicados." },

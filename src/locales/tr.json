@@ -33,7 +33,7 @@
   "features": {
     "eyebrow": "İhtiyacın olan her şey",
     "title": "Görünüşte sade. İçinde akıllı.",
-    "subtitle": "iOS 26 için SwiftUI ile yapıldı: hızlı, erişilebilir ve iPhone’unda kendini evinde hissettiren bir tasarım.",
+    "subtitle": "iOS 26 için SwiftUI ile yapıldı: hızlı, erişilebilir ve iPhone’unda kendini evinde hissettiren bir tasarım. iPhone Duo için optimize: iç ve dış ekrana uyarlanan düzenler; açıp kapatırken kaldığınız yerden devam edin.",
     "items": {
       "trend": { "title": "Akıllı trend", "text": "Boşlukları hesaba katan yumuşatma, haftalık hız ve işler sabitken bunu söyleyen plato tespiti." },
       "health": { "title": "Apple Sağlık senkronu", "text": "Akıllı tartının verileri, vücut kompozisyonu, adım ve uyku ile çift yönlü, tekrarsız senkron." },
