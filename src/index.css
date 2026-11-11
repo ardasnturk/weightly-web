@@ -4,14 +4,17 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
   }
   body {
-    @apply bg-white text-ink-900 antialiased dark:bg-ink-950 dark:text-ink-50;
+    @apply bg-cream-100 font-sans text-forest-900 antialiased dark:bg-forest-950 dark:text-cream-100;
   }
   ::selection {
-    @apply bg-brand-200 text-ink-900;
+    @apply bg-brand-200 text-forest-900;
+  }
+  :focus-visible {
+    @apply outline-none ring-4 ring-brand-300/70;
   }
 }
 
@@ -20,23 +23,36 @@
     @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
   }
   .card {
-    @apply rounded-3xl border border-ink-100 bg-ink-50/60 dark:border-ink-800 dark:bg-ink-900/70;
+    @apply rounded-[1.75rem] border border-forest-900/[0.07] bg-white/70 shadow-[0_24px_48px_-28px_rgba(12,26,18,0.35)] backdrop-blur dark:border-white/10 dark:bg-white/[0.04] dark:shadow-none;
   }
   .eyebrow {
-    @apply text-sm font-semibold uppercase tracking-wider text-brand-600 dark:text-brand-400;
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-700 dark:text-brand-300;
   }
   .section-title {
-    @apply text-3xl font-bold tracking-tight sm:text-5xl;
+    @apply text-4xl font-semibold leading-[1.05] tracking-[-0.035em] sm:text-6xl;
+  }
+  .serif {
+    @apply font-display font-normal italic tracking-normal;
   }
   .lead {
-    @apply text-lg leading-relaxed text-ink-600 dark:text-ink-400;
+    @apply text-lg leading-relaxed text-forest-900/70 dark:text-cream-100/70;
+  }
+  .muted {
+    @apply text-forest-900/60 dark:text-cream-100/60;
+  }
+  .glass {
+    @apply border border-white/70 bg-white/75 shadow-xl shadow-forest-900/10 backdrop-blur-xl dark:border-white/10 dark:bg-forest-800/75 dark:shadow-black/40;
+  }
+  .text-shine {
+    @apply bg-[linear-gradient(110deg,#116633_35%,#32d583_50%,#116633_65%)] bg-[length:200%_100%] bg-clip-text text-transparent animate-shine dark:bg-[linear-gradient(110deg,#6ce9a6_35%,#ecfdf3_50%,#6ce9a6_65%)];
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
-    animation: none !important;
-    transition: none !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }

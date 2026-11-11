@@ -1,9 +1,10 @@
 {
   "meta": {
     "title": "Weightly – Akıllı trendli kilo takibi",
-    "description": "Günlük dalgalanmaları değil, gerçek kilo trendini gör. Apple Sağlık senkronu, widget’lar, Apple Watch ve Siri. Hesap yok, reklam yok; verilerin cihazlarında kalır."
+    "description": "Günlük dalgalanmaları değil, gerçek kilo trendini gör. Apple Sağlık senkronu, döngü farkındalığı, widget’lar, Apple Watch ve Siri. Hesap yok, reklam yok; verilerin cihazlarında kalır."
   },
   "nav": {
+    "new": "Yenilikler",
     "features": "Özellikler",
     "pro": "PRO",
     "privacy": "Gizlilik",
@@ -17,131 +18,538 @@
     "large": "App Store"
   },
   "hero": {
-    "eyebrow": "Yeni: iPhone için baştan native yazılan Weightly 2.0",
-    "title": "Gürültüyü değil, trendi gör.",
-    "subtitle": "Kilon her gün inip çıkar: su, tuz, uyku. Weightly bu dalgalanmaları tek bir dürüst trend çizgisine dönüştürür; böylece gerçekte nereye gittiğini her zaman bilirsin.",
+    "eyebrow": "Ani artışların nedeni, döngü farkındalığı ve daha fazlası",
+    "titleA": "Gürültüyü değil,",
+    "titleEm": "trendi",
+    "titleB": "gör.",
+    "subtitle": "Kilon her gün inip çıkar: su, tuz, uyku, hormonlar. Weightly bu dalgalanmaları tek bir dürüst trend çizgisine dönüştürür ve bugünün neden farklı göründüğünü sana söyler.",
+    "explore": "Özellikleri keşfet",
     "note": "Ücretsiz · Hesap gerekmez · Verilerin cihazlarında kalır",
-    "imageAlt": "Yumuşatılmış kilo trendini gösteren Weightly Bugün ekranı"
+    "imageAlt": "Yumuşatılmış kilo trendini gösteren Weightly Bugün ekranı",
+    "chips": {
+      "rate": "Haftada −0,4 kg, istikrarlı",
+      "spike": "Bugün daha mı yüksek? Tuzlu akşam yemeği",
+      "cycle": "Döngünün 24. günü · su tutulması normal",
+      "goal": "Hedef aralığı: 4 Mart – 28 Mart"
+    }
   },
+  "marqueeLabel": "Öne çıkanlar",
+  "marquee": [
+    "Akıllı trend",
+    "Apple Sağlık",
+    "Döngü farkındalığı",
+    "Apple Watch",
+    "Siri",
+    "Etkileşimli widget’lar",
+    "GLP-1 günlüğü",
+    "İlerleme fotoğrafları",
+    "Destekçiyle paylaşım",
+    "Face ID kilidi",
+    "Hesap yok",
+    "Reklam yok"
+  ],
   "trend": {
     "eyebrow": "Fikir",
-    "title": "Tartıyı okumanın daha sakin bir yolu",
-    "body": "Weightly, klasik Hacker’s Diet yaklaşımındaki üstel ağırlıklı hareketli ortalamayı kullanır. Her tartım trendi biraz etkiler; atlanan günler otomatik olarak hesaba katılır. Yönü ve haftalık hızı görürsün; hedefin için de söz yerine gerçekçi bir tarih aralığı.",
+    "titleA": "Tartıyı okumanın",
+    "titleEm": "daha sakin bir yolu",
+    "body": "Weightly, klasik Hacker’s Diet yaklaşımının temelindeki üstel ağırlıklı hareketli ortalamayı kullanır. Her tartım trendi biraz etkiler; atlanan günler senin yerine hesaba katılır. Bir söz yerine yönü, haftalık hızı ve hedefin için gerçekçi bir tarih aralığını görürsün.",
     "scale": "Günlük tartımlar",
-    "line": "Trendin"
+    "line": "Trendin",
+    "stats": [
+      {
+        "value": "±1,5 kg",
+        "label": "filtrelenen günlük dalgalanma"
+      },
+      {
+        "value": "1 çizgi",
+        "label": "gerçeği söyleyen"
+      },
+      {
+        "value": "0",
+        "label": "hesap ya da reklam"
+      }
+    ]
+  },
+  "new": {
+    "eyebrow": "Weightly 2.1’deki yenilikler",
+    "titleA": "Kendi verilerinde",
+    "titleEm": "keşfedecek daha çok şey.",
+    "subtitle": "2.1 güncellemesi tamamen anlamakla ilgili: bir tartımın neden fırladığı, döngünün işin içine nasıl girdiği ve ilerlemeni seni destekleyen insanlarla paylaşmak.",
+    "items": {
+      "spike": {
+        "title": "“Bugün neden daha yüksek?”",
+        "text": "Bir tartım trendinin üstüne fırladığında Weightly, kaydettiğin etiketlere (tuzlu yemek, geç yemek, alkol, antrenman, seyahat, kötü uyku) ve döngüne bakar, olası nedeni açıklar. Ani bir artış artık geri adım gibi hissettirmez.",
+        "bubbleTitle": "Trendin +0,9 kg üstünde",
+        "bubbleText": "Tuzlu akşam yemeği ve kötü uyku: vücut bir iki gün su tutar."
+      },
+      "cycle": {
+        "title": "Döngü farkındalığı",
+        "text": "Apple Sağlık’taki döngü günleri grafiğinde ve Bugün ekranında görünür; böylece beklenen su tutulmasını kolayca fark edersin."
+      },
+      "partner": {
+        "title": "Bir destekçiyle paylaş",
+        "text": "Partnerini, bir arkadaşını ya da koçunu iCloud üzerinden davet et. Yönünü, kaç gün kayıt yaptığını ve hedef ilerlemeni görürler; sayıları ise yalnızca sen dahil edersen.",
+        "alt": "Kanepede birlikte Weightly’ye bakan bir çift"
+      },
+      "medication": {
+        "title": "Daha akıllı ilaç günlüğü",
+        "text": "GLP-1 kullananlar için kalem stoku, yenileme hatırlatmaları ve hızlı bir iştah kontrolü."
+      },
+      "share": {
+        "title": "İlerlemeni paylaş",
+        "text": "Mesajlar veya hikâyeler için sade bir ilerleme kartı; sayılarla ya da sayılar olmadan."
+      },
+      "siri": {
+        "title": "“Nasıl gidiyorum?”",
+        "text": "Siri’ye sor; trendini, haftalık değişimini ve hedef ilerlemeni dinle."
+      },
+      "whatsnew": {
+        "title": "Her güncellemenin turu",
+        "text": "Her güncellemeden sonra kısa, animasyonlu bir tur uygulamadaki yenilikleri gösterir."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gerçek rutinler için tasarlandı",
+    "titleA": "Zaten yaşadığın güne",
+    "titleEm": "kendiliğinden uyar.",
+    "items": {
+      "today": {
+        "title": "Bugün",
+        "text": "Trendin, haftalık hızın ve hedefin bir bakışta; bugünkü sayının arkasındaki nedenle birlikte."
+      },
+      "trends": {
+        "title": "Trend",
+        "text": "Haftalar, aylar ya da yıllar. Ani artışlar, döngü günleri ve etiketler doğrudan grafikte."
+      },
+      "insights": {
+        "title": "İçgörüler",
+        "text": "Özetler, gün örüntüleri ve etiketlerinin tartıya gerçekte ne yaptığı."
+      },
+      "body": {
+        "title": "Vücut",
+        "text": "Ölçüler, vücut kompozisyonu ve gizli ilerleme fotoğrafları."
+      },
+      "log": {
+        "title": "Kayıt",
+        "text": "İki dokunuşta bir tartım; ya da bir widget’tan, Watch’undan veya Siri’den."
+      },
+      "medication": {
+        "title": "İlaç",
+        "text": "Dozlar, enjeksiyon bölgeleri, stok ve iştah tek ve sakin bir yerde."
+      }
+    }
   },
   "features": {
     "eyebrow": "İhtiyacın olan her şey",
-    "title": "Görünüşte sade. İçinde akıllı.",
-    "subtitle": "iOS 26 için SwiftUI ile yapıldı: hızlı, erişilebilir ve iPhone’unda kendini evinde hissettiren bir tasarım. iPhone Duo için optimize: iç ve dış ekrana uyarlanan düzenler; açıp kapatırken kaldığınız yerden devam edin.",
+    "titleA": "Görünüşte sade.",
+    "titleEm": "İçinde akıllı.",
+    "subtitle": "iOS 26 için SwiftUI ile yapıldı: hızlı, erişilebilir ve her iPhone’da kendini evinde hisseden bir uygulama; iPhone Duo’da da iki ekrana uyarlanan düzenlerle.",
+    "free": "Bunların hepsi ücretsiz",
     "items": {
-      "trend": { "title": "Akıllı trend", "text": "Boşlukları hesaba katan yumuşatma, haftalık hız ve işler sabitken bunu söyleyen plato tespiti." },
-      "health": { "title": "Apple Sağlık senkronu", "text": "Akıllı tartının verileri, vücut kompozisyonu, adım ve uyku ile çift yönlü, tekrarsız senkron." },
-      "goals": { "title": "Sana uyan hedefler", "text": "Kilo ver, al ya da bir aralıkta koru. Bir son tarih yerine dürüst bir tarih aralığı al." },
-      "body": { "title": "Vücut ve fotoğraflar", "text": "Bel, kalça, göğüs ve daha fazlası. Yan yana ve üst üste karşılaştırmalı gizli ilerleme fotoğrafları." },
-      "hide": { "title": "Sayıları gizle", "text": "Rakamları görmek istemiyor musun? Sadece yönü göster ya da değerleri tamamen gizle; daha sağlıklı bir bakış açısı için." },
-      "glp1": { "title": "GLP-1 ve ilaç günlüğü", "text": "Dozları ve enjeksiyon bölgelerini kaydet, hatırlatma al ve doktorunla PDF paylaş." },
-      "export": { "title": "İçe ve dışa aktarma", "text": "Geçmişini Libra, Happy Scale, Renpho veya Withings’ten getir. İstediğin zaman CSV ya da JSON olarak dışa aktar." },
-      "lock": { "title": "Face ID kilidi", "text": "Verilerini Face ID ile koru; uygulama değiştiricide de gizlilik perdesi." }
+      "trend": {
+        "title": "Akıllı trend",
+        "text": "Boşlukları hesaba katan yumuşatma, haftalık hız ve işler sadece sabitken bunu sana söyleyen plato tespiti."
+      },
+      "health": {
+        "title": "Apple Sağlık senkronu",
+        "text": "Akıllı tartın, vücut kompozisyonu, adım, uyku ve döngüyle çift yönlü senkron; tekrar eden kayıt olmadan."
+      },
+      "goals": {
+        "title": "Sana uyan hedefler",
+        "text": "Kilo ver, al ya da bir aralıkta koru. Bir son tarih yerine dürüst bir tarih aralığı al."
+      },
+      "body": {
+        "title": "Vücut ve fotoğraflar",
+        "text": "Bel, kalça, göğüs ve daha fazlası. Yan yana ve üst üste karşılaştırmalı gizli ilerleme fotoğrafları."
+      },
+      "hide": {
+        "title": "Sayıları gizle",
+        "text": "Yalnızca yönü göster ya da değerleri tamamen gizle; daha sağlıklı bir bakış açısı için daha nazik bir yol."
+      },
+      "glp1": {
+        "title": "GLP-1 ve ilaç günlüğü",
+        "text": "Dozlar, enjeksiyon bölgeleri, kalem stoku ve hatırlatmalar; ayrıca doktorun için bir PDF."
+      },
+      "export": {
+        "title": "İçe ve dışa aktarma",
+        "text": "Geçmişini Libra, Happy Scale, Renpho veya Withings’ten getir. İstediğin zaman CSV ya da JSON olarak dışa aktar."
+      },
+      "lock": {
+        "title": "Face ID kilidi",
+        "text": "Verilerini Face ID ile gizli tut; uygulama değiştiricide de gizlilik perdesi."
+      }
     }
   },
   "everywhere": {
     "eyebrow": "Her zaman bir dokunuş uzağında",
-    "title": "Nerede olursan ol, saniyeler içinde kaydet",
+    "titleA": "Nerede olursan ol,",
+    "titleEm": "saniyeler içinde kaydet.",
     "subtitle": "En hızlı tartım, uygulama açmana gerek kalmayanıdır.",
-    "widgets": { "title": "Etkileşimli widget’lar", "text": "Bugünkü kilonu doğrudan Ana Ekran’da ayarla ve kaydet. Ana Ekran ve Kilitli Ekran için trend widget’ları." },
-    "watch": { "title": "Apple Watch", "text": "Digital Crown ile kaydet, trendini komplikasyonda gör." },
-    "siri": { "title": "Siri ve Kestirmeler", "text": "“Weightly ile kilomu kaydet” — Eylem Düğmesi ile de çalışır." },
-    "control": { "title": "Denetim Merkezi", "text": "“Kilo kaydet” denetimi giriş ekranını anında açar." },
+    "widgets": {
+      "title": "Etkileşimli widget’lar",
+      "text": "Bugünkü kilonu doğrudan Ana Ekran’da ayarla ve kaydet. Ana Ekran ve Kilitli Ekran için trend widget’ları."
+    },
+    "watch": {
+      "title": "Apple Watch",
+      "text": "Digital Crown ile kaydet, trendini bir komplikasyonda gör."
+    },
+    "siri": {
+      "title": "Siri ve Kestirmeler",
+      "text": "“Weightly ile kilomu kaydet” ya da “Weightly ile nasıl gidiyorum”; Eylem Düğmesi ile de çalışır."
+    },
+    "control": {
+      "title": "Denetim Merkezi",
+      "text": "“Kilo Kaydet” denetimi giriş ekranını anında açar."
+    },
     "widgetAlt": "iPhone Ana Ekranı’nda Weightly widget’ları",
     "watchAlt": "Apple Watch’ta Digital Crown ile kilo kaydı"
   },
   "pro": {
     "eyebrow": "Weightly PRO",
-    "title": "İstediğinde daha derine in",
-    "subtitle": "Yukarıdaki her şey ücretsiz. PRO, ilerlemeni anlamak için ek araçlar sunar ve ilk haftan hediye.",
+    "titleA": "İstediğinde",
+    "titleEm": "daha derine in.",
+    "subtitle": "Yukarıdaki her şey ücretsiz. PRO, ilerlemeni anlamak için ek araçlar sunar; 2.1 ise dokuz yenisini getiriyor.",
     "gift": "İlk açılışta 7 gün ücretsiz PRO. Ödeme yok, abonelik yok; süre dolunca kendiliğinden biter.",
-    "plans": "Sonrasında: ilk dönem için karşılama fiyatlı haftalık, aylık, 3 aylık ya da yıllık planlar veya tek seferlik ömür boyu satın alma.",
+    "welcome": "Yeni misin? Kurulumu tamamladığında tek seferlik bir hoş geldin teklifi alırsın: 3 gün ücretsiz denemeyle 3 aylık PRO yarı fiyatına; 24 saat geçerli.",
+    "newBadge": "Yeni",
+    "plans": "Planlar: haftalık, aylık, 3 aylık ya da yıllık abonelikler veya tek seferlik ömür boyu satın alma. Ödeme Apple Hesabından tahsil edilir; abonelikler, dönem bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.",
     "items": {
-      "insights": { "title": "İçgörüler", "text": "Haftalık ve aylık özetler, dönem karşılaştırmaları, gün örüntün ve kayıt serilerin." },
-      "milestones": { "title": "Hedef kilometre taşları", "text": "Çeyrek, yarı ve dörtte üç ara noktaları; trendinin her birine ulaştığı tarihle." },
-      "report": { "title": "İlerleme raporu", "text": "Grafik, özetler ve ölçülerle tek sayfalık sade bir PDF; sakla ya da paylaş." },
-      "timelapse": { "title": "Fotoğraf zaman atlaması", "text": "İlerleme fotoğraflarını kısa bir videoya dönüştür; iPhone’unda oluşturulur, hiçbir yere yüklenmez." },
-      "widgets": { "title": "İlerleme widget’ları", "text": "Grafik ve hedef ilerlemesiyle büyük bir widget, ayrıca Kilitli Ekran hedef göstergesi." },
-      "themes": { "title": "Renk temaları", "text": "Uygulama ve widget’ların için sekiz vurgu rengi." }
+      "summary": {
+        "title": "Gizli haftalık özet",
+        "text": "Haftanın sade bir dille özeti; cihazında Apple Intelligence tarafından yazılır."
+      },
+      "tags": {
+        "title": "Etiket içgörüleri",
+        "text": "Geç akşam yemeklerinin, alkolün, antrenmanın ya da seyahatin kilonu gerçekte nasıl etkilediğini gör."
+      },
+      "cyclePattern": {
+        "title": "Döngü örüntüsü",
+        "text": "Tipik döngü eğrin ve döngü günleri ayıklanmış bir trend."
+      },
+      "dose": {
+        "title": "Doz dönemleri",
+        "text": "Trendini ilaç dozları ve doz artırma adımları boyunca karşılaştır."
+      },
+      "energy": {
+        "title": "Enerji dengesi",
+        "text": "Trendinden ve besinlerle aldığın enerjiden günlük enerji harcamanın (TDEE) bir tahmini."
+      },
+      "composition": {
+        "title": "Yağ ve yağsız kütle",
+        "text": "Akıllı tartından gelen verilerle yağ ve yağsız kütle trendleri."
+      },
+      "planner": {
+        "title": "“Ya şöyle olursa” planlayıcısı",
+        "text": "Haftalık bir hızla oyna ve hedefine ne zaman ulaşabileceğini gör."
+      },
+      "ghost": {
+        "title": "Fotoğraf hizalama rehberi",
+        "text": "Son fotoğrafının silik bir görüntüsü, her yeni fotoğrafı aynı hizada çekmene yardım eder."
+      },
+      "icons": {
+        "title": "Uygulama ikonları ve paylaşım stilleri",
+        "text": "Yedi alternatif ikon tasarımı ve ek paylaşım kartı stilleri."
+      },
+      "insights": {
+        "title": "İçgörüler",
+        "text": "Haftalık ve aylık özetler, dönem karşılaştırmaları, gün örüntüsü ve seriler."
+      },
+      "milestones": {
+        "title": "Hedef kilometre taşları",
+        "text": "Çeyrek, yarı ve dörtte üç ara noktaları; her birine ulaştığın tarihle."
+      },
+      "report": {
+        "title": "İlerleme raporu",
+        "text": "Grafik, özetler ve ölçülerle tek sayfalık sade bir PDF."
+      },
+      "timelapse": {
+        "title": "Fotoğraf zaman atlaması",
+        "text": "İlerleme fotoğraflarından kısa bir video; iPhone’unda oluşturulur, hiçbir yere yüklenmez."
+      },
+      "widgets": {
+        "title": "İlerleme widget’ları ve temalar",
+        "text": "Büyük bir grafik widget’ı, Kilitli Ekran hedef göstergesi ve sekiz renk teması."
+      }
     }
+  },
+  "atleva": {
+    "eyebrow": "Birlikte daha iyi",
+    "titleA": "Trendine eşlik etsin:",
+    "titleEm": "Atleva.",
+    "body": "Atleva, ev antrenmanı uygulamamız: ekipmansız kişisel bir plan ve tekrarlarını sayıp formunu puanlayan bir kamera koçu. Weightly kilonu Apple Sağlık'a kaydeder, Atleva da planını buna göre şekillendirir — Atleva antrenmanların ise trendinin yanında aktif enerji olarak görünür.",
+    "button": "Atleva’yı App Store’dan indir"
   },
   "privacy": {
     "eyebrow": "Tasarımdan gelen gizlilik",
-    "title": "Senin vücudun. Senin verin. Senin cihazların.",
-    "subtitle": "Weightly’nin sunucusu da, hesabı da yok. İstesek bile verilerine bakamayız.",
+    "titleA": "Senin vücudun. Senin verin.",
+    "titleEm": "Senin cihazların.",
+    "subtitle": "Weightly’nin sağlık verilerin için sunucusu da, hesap sistemi de yok. İstesek bile tartımlarına bakamayız.",
     "points": {
-      "account": { "title": "Hesap yok", "text": "Uygulamayı aç ve başla. Kayıt olacağın bir şey yok." },
-      "device": { "title": "Cihazında kalır", "text": "Kayıtların iPhone’unda durur. İsteğe bağlı iCloud senkronu özel iCloud’unu kullanır." },
-      "ads": { "title": "Reklam ve takip yok", "text": "Analitik SDK’sı, reklam ağı ya da veri simsarı yok." },
-      "health": { "title": "Sağlık verisi sağlık verisi olarak kalır", "text": "Apple Sağlık verileri asla reklam için kullanılmaz ve kimseyle paylaşılmaz." }
+      "account": {
+        "title": "Hesap yok",
+        "text": "Uygulamayı aç ve başla. Kayıt olacağın bir şey yok."
+      },
+      "device": {
+        "title": "Cihazında kalır",
+        "text": "Kayıtların iPhone’unda durur. İsteğe bağlı iCloud senkronu ve paylaşım, kendi özel iCloud’unu kullanır."
+      },
+      "ads": {
+        "title": "Reklam ve takip yok",
+        "text": "Analitik SDK’sı, reklam ağı ya da veri simsarı yok."
+      },
+      "health": {
+        "title": "Sağlık verisi sağlık verisi olarak kalır",
+        "text": "Apple Sağlık verileri asla reklam için kullanılmaz ve kimseyle paylaşılmaz."
+      }
     },
     "link": "Gizlilik politikasını oku"
   },
   "faq": {
-    "title": "Sorular ve cevaplar",
+    "titleA": "Sorular ve",
+    "titleEm": "cevaplar",
+    "subtitle": "Bize en çok sorulanların kısa hâli.",
+    "support": "Destek sayfasında daha fazla yardım",
     "items": [
-      { "q": "Weightly ücretsiz mi?", "a": "Evet. Kayıt, trend, hedefler, Apple Sağlık, widget’lar, Apple Watch, Siri, ölçüler, fotoğraflar, ilaç günlüğü ve dışa aktarma ücretsiz. Weightly PRO isteğe bağlıdır; İçgörüler, kilometre taşları, PDF raporu, zaman atlaması, ilerleme widget’ları ve renk temaları ekler." },
-      { "q": "Ücretsiz PRO haftası nasıl işliyor?", "a": "Weightly 2.0’ı ilk açtığında otomatik başlar. Ödeme bilgisi girmezsin ve hiçbir şey yenilenmez; yedi gün sonra PRO özellikleri yeniden kilitlenir. Verilerin asla kilitlenmez." },
-      { "q": "Hesaba ihtiyacım var mı?", "a": "Hayır. Kayıt olmak yok, Weightly sunucusu yok. Verilerin cihazlarında ve açarsan özel iCloud’unda kalır." },
-      { "q": "Weightly akıllı tartımla çalışır mı?", "a": "Tartının uygulaması Apple Sağlık’a yazıyorsa (Withings, Renpho, Eufy, Garmin ve daha birçoğu), Weightly yeni tartımları otomatik alır ve tekrarları önler." },
-      { "q": "Trend neden bugünkü kilomdan farklı?", "a": "Günlük kilo, su ve yiyecek nedeniyle bir kilo veya daha fazla oynar. Trend bu dalgalanmaların ortalamasını alır; böylece tuzlu bir akşam yemeği geri adım gibi görünmez." },
-      { "q": "Aboneliği nasıl iptal ederim?", "a": "iPhone’unda Ayarlar’ı aç, adına dokun, ardından Abonelikler’e git. Yenilemeden en az 24 saat önce iptal edebilirsin; PRO, ödenen dönemin sonuna kadar aktif kalır." }
+      {
+        "q": "Weightly ücretsiz mi?",
+        "a": "Evet. Kayıt, trend, hedefler, Apple Sağlık, döngü farkındalığı, “Bugün neden daha yüksek?”, destekçiyle paylaşım, widget’lar, Apple Watch, Siri, ölçüler, fotoğraflar, ilaç günlüğü ve dışa aktarma ücretsiz. Weightly PRO isteğe bağlıdır; daha derin içgörüler, haftalık özet, planlayıcı, raporlar ve daha fazlasını ekler."
+      },
+      {
+        "q": "Ücretsiz PRO haftası ve hoş geldin teklifi nasıl işliyor?",
+        "a": "Ücretsiz hafta, Weightly’yi ilk açtığında otomatik olarak başlar. Ödeme bilgisi girmezsin ve hiçbir şey yenilenmez; yedi gün sonra PRO yeniden kilitlenir, o kadar. Yeni kullanıcılar kurulumdan sonra tek seferlik bir hoş geldin teklifi de görür: 3 gün ücretsiz denemeyle 3 aylık PRO yarı fiyatına, 24 saat boyunca. Verilerin asla kilitlenmez."
+      },
+      {
+        "q": "Hesaba ihtiyacım var mı?",
+        "a": "Hayır. Kayıt olmak yok. Verilerin cihazlarında ve açarsan özel iCloud’unda kalır."
+      },
+      {
+        "q": "Destekçiyle paylaşım nasıl işliyor?",
+        "a": "Ayarlar › Bir Destekçiyle Paylaş bölümünde bir iCloud daveti oluşturup güvendiğin birine gönderirsin. O kişi yönünü, kayıtlı günlerini ve hedef ilerlemeni kendi Weightly uygulamasında görür; sayıları ise yalnızca sen dahil edersen. Paylaşımı istediğin zaman durdurabilirsin."
+      },
+      {
+        "q": "Haftalık özet verilerimi yapay zekâ sunucularına gönderiyor mu?",
+        "a": "Hayır. Özet, iPhone’undaki Apple Intelligence’ı kullanır (desteklenen cihazlarda iOS 26 veya üzeri). Bunun için verilerin cihazından hiç çıkmaz."
+      },
+      {
+        "q": "Weightly akıllı tartımla çalışır mı?",
+        "a": "Tartının uygulaması Apple Sağlık’a yazıyorsa (Withings, Renpho, Eufy, Garmin ve daha birçoğu), Weightly yeni tartımları otomatik olarak alır ve tekrarları önler."
+      },
+      {
+        "q": "Trend neden bugünkü kilomdan farklı?",
+        "a": "Günlük kilo; su, yiyecek ve hormonlar nedeniyle bir kilo veya daha fazla oynar. Trend bu dalgalanmaların ortalamasını alır; böylece tek bir tuzlu akşam yemeği geri adım gibi görünmez."
+      },
+      {
+        "q": "Aboneliği nasıl iptal ederim?",
+        "a": "iPhone’unda Ayarlar’ı aç, adına dokun, ardından Abonelikler’e git. Yenilemeden en az 24 saat önce iptal et; PRO, ödenen dönemin sonuna kadar aktif kalır."
+      }
     ]
   },
   "cta": {
-    "title": "Gerçek ilerlemeni görmeye başla",
-    "subtitle": "Weightly 2.0; iPhone ve Apple Watch için İngilizce, Türkçe, Almanca, İspanyolca, İtalyanca ve Fransızca olarak sunuluyor."
+    "titleA": "Gerçek ilerlemeni",
+    "titleEm": "görmeye başla.",
+    "subtitle": "Weightly 2.1; iPhone ve Apple Watch için İngilizce, Türkçe, Almanca, İspanyolca, İtalyanca ve Fransızca olarak sunuluyor."
   },
   "footer": {
     "tagline": "iPhone ve Apple Watch için sakin ve gizli bir kilo takipçisi.",
+    "app": "Uygulama",
+    "help": "Yardım ve yasal",
     "privacy": "Gizlilik Politikası",
     "support": "Destek",
-    "terms": "Kullanım Koşulları (EULA)",
+    "terms": "Kullanım Koşulları",
     "rights": "© {{year}} Arda Şentürk. Tüm hakları saklıdır.",
     "wellness": "Weightly genel bir sağlıklı yaşam uygulamasıdır; tıbbi tavsiye, teşhis veya tedavi sunmaz.",
-    "apple": "Apple, iPhone, Apple Watch, Apple Sağlık ve Siri, Apple Inc.’in ticari markalarıdır."
+    "apple": "Apple, iPhone, Apple Watch, Apple Sağlık, Apple Intelligence, iCloud ve Siri, Apple Inc.’in ticari markalarıdır."
+  },
+  "legal": {
+    "toc": "Bu sayfada"
   },
   "privacyPage": {
+    "eyebrow": "Yasal",
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 14 Ekim 2026",
-    "intro": "Weightly, kişisel verilerin sende kalacak şekilde tasarlandı. Bu politika, uygulamanın neleri işlediğini, nerede sakladığını ve haklarını açıklar.",
+    "updated": "Son güncelleme: 11 Kasım 2026 (Weightly 2.1)",
+    "intro": "Weightly, kişisel verilerin sende kalacak şekilde tasarlandı. Bu politika; uygulamanın neleri işlediğini, nerede sakladığını, hangi hizmetlerin devreye girdiğini ve haklarının neler olduğunu açıklar.",
     "sections": [
-      { "h": "Sorumlu kişi", "p": "Weightly, Arda Şentürk tarafından geliştirilmektedir. Gizlilikle ilgili her türlü soru için ardasnturk@me.com adresine yazabilirsin." },
-      { "h": "Hesap yok, sunucu yok", "p": "Weightly hesap gerektirmez ve herhangi bir sunucu işletmez. Tartımlarını, ölçülerini, fotoğraflarını, notlarını, ilaç kayıtlarını veya ayarlarını toplamaz, almaz ve saklamayız." },
-      { "h": "Cihazında saklanan veriler", "p": "Girdiğin her şey iPhone’unda (kullanıyorsan Apple Watch’ında) uygulamanın korumalı depolamasında ve Weightly widget’larıyla paylaşılan bir App Group içinde yerel olarak saklanır. İlerleme fotoğrafları iOS veri korumasıyla uygulama içinde tutulur; sen dışa aktarmadıkça fotoğraf arşivine eklenmez." },
-      { "h": "iCloud senkronu (isteğe bağlı)", "p": "iCloud senkronunu açarsan verilerin Apple’ın CloudKit’i üzerinden özel iCloud veritabanına senkronize edilir. Apple tarafından şifrelenir ve yalnızca Apple Hesabın erişebilir. Biz erişemeyiz." },
-      { "h": "Apple Sağlık", "p": "İznin dahilinde Weightly; kilo, vücut kompozisyonu, vücut ölçüleri, boy, adım, aktif enerji, uyku ve (iOS 26) ilaç verilerini Apple Sağlık’tan okur, kaydettiğin tartım ve ölçüleri de yazar. Sağlık verileri yalnızca uygulamanın özelliklerini cihazında sunmak için kullanılır. Asla reklam için kullanılmaz, satılmaz ve üçüncü taraflarla paylaşılmaz. İzinleri istediğin zaman Sağlık uygulamasından değiştirebilirsin." },
-      { "h": "Satın almalar", "p": "Weightly PRO, Apple’ın App Store’u üzerinden satılır. Ödemeyi Apple işler; ödeme bilgilerin bize hiçbir zaman ulaşmaz. Uygulama satın alma durumunu Apple’ın StoreKit’i ile cihazında kontrol eder. Ücretsiz PRO haftası yalnızca cihazında kaydedilir." },
-      { "h": "Analitik, reklam ve takip yok", "p": "Weightly analitik veya reklam SDK’sı içermez ve seni uygulamalar ya da web siteleri arasında takip etmez. Cihaz ayarlarında geliştiricilerle paylaşmayı kabul ettiysen Apple bize toplu ve anonim App Store istatistikleri (indirme sayısı, çökme oranı gibi) sağlayabilir." },
-      { "h": "Bildirimler", "p": "Hatırlatmalar cihazında yerel olarak planlanır. Herhangi bir push sunucusu kullanılmaz." },
-      { "h": "Dışa aktarma ve paylaşım", "p": "CSV/JSON dışa aktarımları, PDF raporları ve zaman atlaması videoları cihazında oluşturulur. Yalnızca sen paylaşmayı veya kaydetmeyi seçtiğinde cihazından çıkar ve o andan itibaren paylaştığın uygulamanın veya hizmetin politikalarına tabi olur." },
-      { "h": "Çocuklar", "p": "Weightly 13 yaşın (veya ülkendeki asgari yaşın) altındaki çocuklara yönelik değildir ve bilerek onların verilerini işlemez." },
-      { "h": "Hakların", "p": "Verilerin cihazlarında kaldığı için kontrol tamamen sende: Ayarlar › Verilerin bölümünden istediğin zaman görüntüleyebilir, dışa aktarabilir ve silebilirsin. Uygulamayı silmek yerel verilerini de kaldırır. KVKK, GDPR ve benzeri yasalar kapsamında bizimle iletişime geçme ve bir denetim makamına şikâyette bulunma hakkın da vardır." },
-      { "h": "Değişiklikler", "p": "Bu politika değişirse bu sayfayı ve yukarıdaki tarihi güncelleriz. Önemli değişiklikleri uygulamanın sürüm notlarında da belirtiriz." }
+      {
+        "h": "Sorumlu kişi",
+        "p": "Weightly, Arda Şentürk (“geliştirici”, “biz”) tarafından geliştirilmektedir. Gizlilikle ilgili her türlü soru veya talep için ardasnturk@me.com adresine yazabilirsin."
+      },
+      {
+        "h": "Hesap yok, sunucularımızda sağlık verisi yok",
+        "p": "Weightly hesap gerektirmez. Verilerin için bir sunucu işletmeyiz; tartımlarını, ölçülerini, fotoğraflarını, notlarını, etiketlerini, döngü veya ilaç kayıtlarını ya da ayarlarını toplamaz, almaz ve saklamayız."
+      },
+      {
+        "h": "Cihazında saklanan veriler",
+        "p": "Girdiğin her şey iPhone’unda (kullanıyorsan Apple Watch’ında da) uygulamanın korumalı depolamasında ve Weightly widget’larıyla paylaşılan bir App Group içinde yerel olarak saklanır. İlerleme fotoğrafları iOS veri korumasıyla uygulama içinde tutulur ve sen dışa aktarmadıkça fotoğraf arşivine asla eklenmez. Tek seferlik teklifler ve ücretsiz PRO haftası yalnızca cihazında kaydedilir."
+      },
+      {
+        "h": "iCloud senkronu (isteğe bağlı)",
+        "p": "iCloud senkronunu açarsan verilerin Apple’ın CloudKit’i üzerinden özel iCloud veritabanına senkronize edilir. Bu veriler Apple tarafından korunur ve yalnızca Apple Hesabın tarafından erişilebilir. Biz erişemeyiz."
+      },
+      {
+        "h": "Bir destekçiyle paylaşım (isteğe bağlı)",
+        "p": [
+          "Bir destekçi davet edersen Weightly, yalnızca kısa bir ilerleme özeti içeren bir iCloud paylaşımı (Apple CloudKit) oluşturur: trendinin yönü, bu hafta kaç gün kayıt yaptığın ve hedef ilerlemen; trend değerin ve haftalık değişimin ise yalnızca “Sayıları dahil et” seçeneğini açarsan. Bu paylaşım senin iCloud’unda saklanır ve yalnızca davetini kabul eden kişiler tarafından görülebilir.",
+          "Kimi davet edeceğine sen karar verirsin ve paylaşımı istediğin zaman Ayarlar’dan durdurabilirsin; çıkardığın kişilerin erişimi sona erer. Biri seninle paylaşım yaparsa, o kişinin özeti senin uygulamanda gösterilir ve başka hiçbir amaçla kullanılmaz."
+        ]
+      },
+      {
+        "h": "Apple Sağlık",
+        "p": "İznin dahilinde Weightly; kilo, vücut kompozisyonu (vücut yağı, yağsız kütle), vücut ölçüleri, boy, adım, aktif enerji, uyku, regl döngüsü verileri, besinlerle alınan enerji ve (iOS 26’da) ilaç verilerini Apple Sağlık’tan okur, kaydettiğin tartım ve ölçüleri de Apple Sağlık’a yazar. Sağlık verileri yalnızca uygulamanın özelliklerini cihazında sunmak için kullanılır. Asla reklam için kullanılmaz, asla satılmaz ve asla üçüncü taraflarla paylaşılmaz. İzinleri istediğin zaman Sağlık uygulamasından değiştirebilirsin."
+      },
+      {
+        "h": "Apple Intelligence (PRO, isteğe bağlı)",
+        "p": "Gizli haftalık özet, iOS 26 veya üzerini çalıştıran desteklenen cihazlarda Apple’ın cihaz üzerindeki Foundation Models’i ile oluşturulur. Verilerin iPhone’unda işlenir; ne bize ne de herhangi bir yapay zekâ hizmetine gönderilir."
+      },
+      {
+        "h": "Siri ve Kestirmeler",
+        "p": "Weightly ile Siri’yi, Kestirmeler’i veya Eylem Düğmesi’ni kullanırsan isteğin Apple tarafından, Apple’ın gizlilik politikasına göre işlenir. Weightly cevabını cihazında verir."
+      },
+      {
+        "h": "Satın almalar ve RevenueCat",
+        "p": [
+          "Weightly PRO, Apple’ın App Store’u üzerinden satılır. Ödemeyi Apple işler; ödeme bilgilerin bize hiçbir zaman ulaşmaz.",
+          "Satın almaları doğrulamak ve PRO erişimini yönetmek için RevenueCat’i (RevenueCat, Inc.) kullanırız. RevenueCat; rastgele oluşturulmuş anonim bir uygulama kullanıcı kimliğini, satın alma ve abonelik geçmişini (ürün, fiyat, tarihler, mağaza işlem kimlikleri) ve uygulama sürümü, cihaz türü, işletim sistemi, ülke/mağaza bölgesi ve IP adresi gibi temel teknik verileri alır. RevenueCat hiçbir sağlık verisi almaz. RevenueCat’in gizlilik politikası için revenuecat.com/privacy adresine bakabilirsin."
+        ]
+      },
+      {
+        "h": "Analitik, reklam ve takip yok",
+        "p": "Weightly analitik veya reklam SDK’sı içermez ve seni uygulamalar ya da web siteleri arasında takip etmez. Cihaz ayarlarında geliştiricilerle paylaşmayı kabul ettiysen Apple bize toplu ve anonim App Store istatistikleri (indirme sayısı, çökme oranı gibi) sağlayabilir."
+      },
+      {
+        "h": "Bildirimler",
+        "p": "Hatırlatmalar, yenileme notları ve hoş geldin teklifinin geri sayımı cihazında yerel olarak planlanır. Herhangi bir push sunucusu kullanılmaz."
+      },
+      {
+        "h": "Dışa aktarma ve paylaşım",
+        "p": "CSV/JSON dışa aktarımları, PDF raporları, paylaşım kartları ve zaman atlaması videoları cihazında oluşturulur. Yalnızca sen paylaşmayı veya kaydetmeyi seçtiğinde cihazından çıkar ve o andan itibaren paylaştığın uygulamanın veya hizmetin politikalarına tabi olur."
+      },
+      {
+        "h": "Diğer uygulamalara bağlantılar",
+        "p": "Weightly, kardeş uygulamamız Atleva hakkında bir sayfa gösterebilir ve onun App Store sayfasını açabilir. Bu sırada Atleva’ya hiçbir veri aktarılmaz."
+      },
+      {
+        "h": "Hukuki dayanaklar (GDPR)",
+        "p": "GDPR’ın uygulandığı durumlarda, cihazındaki işleme uygulamayı sunmak amacıyla senin talebin üzerine gerçekleşir (Madde 6(1)(b)); sağlık verileri yalnızca iOS izin pencereleri aracılığıyla verdiğin ve istediğin zaman geri alabileceğin açık rızanla işlenir (Madde 9(2)(a)). RevenueCat üzerinden yapılan satın alma doğrulaması, PRO’yu sunmak (Madde 6(1)(b)) ve yasal yükümlülükleri yerine getirmek (Madde 6(1)(c)) için gereklidir."
+      },
+      {
+        "h": "Çocuklar",
+        "p": "Weightly 13 yaşın (veya ülkendeki asgari yaşın) altındaki çocuklara yönelik değildir ve bilerek onların verilerini işlemez."
+      },
+      {
+        "h": "Hakların",
+        "p": "Verilerin cihazlarında kaldığı için kontrol tamamen sende: Ayarlar › Verilerin bölümünden onları istediğin zaman görüntüleyebilir, dışa aktarabilir ve silebilir; iCloud senkronunu veya paylaşımı dilediğin zaman durdurabilirsin. Uygulamayı silmek yerel verilerini de kaldırır. RevenueCat’te tutulan satın alma verileri hakkında bize de başvurabilirsin; ayrıca bir denetim makamına şikâyette bulunma hakkına sahipsin."
+      },
+      {
+        "h": "Değişiklikler",
+        "p": "Bu politika değişirse bu sayfayı ve yukarıdaki tarihi güncelleriz. Önemli değişiklikleri uygulamanın sürüm notlarında da belirtiriz."
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Yasal",
+    "title": "Kullanım Koşulları",
+    "updated": "Son güncelleme: 11 Kasım 2026 (Weightly 2.1)",
+    "intro": "Bu koşullar, iPhone ve Apple Watch için Weightly uygulamasını ve Weightly PRO’yu kullanımın için geçerlidir. Lütfen bunları, aynı şekilde geçerli olan Apple’ın Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi (Standart EULA) ile birlikte oku.",
+    "sections": [
+      {
+        "h": "Sözleşme",
+        "p": "Weightly’yi indirerek veya kullanarak bu koşulları ve Apple’ın Standart EULA’sını (apple.com/legal/internet-services/itunes/dev/stdeula) kabul etmiş olursun. İkisi çelişirse, kapsadığı konularda Apple’ın Standart EULA’sı geçerli olur. Weightly, Arda Şentürk tarafından sunulmaktadır."
+      },
+      {
+        "h": "Lisansın",
+        "p": "App Store Kullanım Kuralları’nın izin verdiği şekilde, Weightly’yi sahip olduğun veya kontrol ettiğin Apple cihazlarında kullanmak için kişisel, devredilemez ve münhasır olmayan bir lisans alırsın. Yasanın izin verdiği durumlar dışında uygulamayı kopyalayamaz, değiştiremez, tersine mühendislik uygulayamaz veya yeniden satamazsın."
+      },
+      {
+        "h": "Tıbbi tavsiye değildir",
+        "p": "Weightly genel bir sağlıklı yaşam uygulamasıdır. Trendler, açıklamalar, özetler, tahminler (enerji harcaması veya hedef tarihleri gibi) ve ilaç kayıtları yalnızca bilgilendirme amaçlıdır; tıbbi tavsiye, teşhis veya tedavi değildir. Beslenmeni, antrenmanını veya ilaçlarını değiştirmeden önce her zaman yetkin bir sağlık profesyoneliyle konuş. Acil bir durumda yerel acil servislere başvur."
+      },
+      {
+        "h": "Weightly PRO abonelikleri",
+        "p": [
+          "PRO, otomatik yenilenen abonelikler (haftalık, aylık, 3 aylık veya yıllık) ya da tek seferlik ömür boyu satın alma olarak sunulur. Fiyatlar satın almadan önce uygulamada gösterilir ve ülkeye göre değişebilir.",
+          "Ödeme, satın almayı onayladığında Apple Hesabından tahsil edilir. Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal etmediğin sürece aynı fiyat ve sürede otomatik olarak yenilenir. Aboneliklerini Apple Hesabı ayarlarından yönetebilir ve iptal edebilirsin. Ücretsiz deneme sunulursa, bir abonelik satın aldığında denemenin kullanılmamış kısmı sona erer.",
+          "İadeler Apple tarafından kendi politikalarına göre yürütülür; iadeleri kendimiz yapamayız."
+        ]
+      },
+      {
+        "h": "Ücretsiz PRO haftası ve hoş geldin teklifi",
+        "p": [
+          "Yeni kullanıcılar ilk açılışta 7 gün ücretsiz PRO alır. Ödeme bilgisi gerekmez ve hiçbir şey yenilenmez; süre bitince PRO özellikleri yeniden kilitlenir. Verilerin her zaman erişilebilir kalır.",
+          "Kurulumdan sonra yeni kullanıcılar tek seferlik bir hoş geldin teklifi de görebilir: 3 günlük ücretsiz denemeyle, normal 3 aylık fiyatın yarısına 3 aylık PRO; o cihazda 24 saat boyunca geçerli. Deneme ve tanıtım fiyatı, Apple’ın belirlediği şekilde her Apple Hesabı ve abonelik grubu için bir kez sunulur. İlk 3 ayın ardından abonelik, iptal edilmediği sürece satın alma sırasında gösterilen fiyattan yenilenir."
+        ]
+      },
+      {
+        "h": "İçeriğin",
+        "p": "Girdiğin her şey (tartımlar, ölçüler, fotoğraflar, notlar ve kayıtlar) sana aittir. Bunlar cihazlarında ve isteğe bağlı olarak iCloud’unda saklandığı için yedek almaktan sen sorumlusun (örneğin iCloud senkronu veya dışa aktarma özelliğiyle)."
+      },
+      {
+        "h": "Bir destekçiyle paylaşım",
+        "p": "Bir özeti iCloud üzerinden biriyle paylaşırsan yalnızca güvendiğin kişileri davet et. Neyi paylaşacağına sen karar verirsin ve paylaşımı istediğin zaman durdurabilirsin. Paylaşımı birini taciz etmek, baskı altına almak veya rızası olmadan izlemek için kullanma."
+      },
+      {
+        "h": "Kabul edilebilir kullanım",
+        "p": "Weightly’yi yalnızca yasal ve kişisel amaçlarla kullan. Satın almaları, teklifleri veya denemeleri kötüye kullanma (örneğin uygunluk kurallarını aşarak) ve uygulamanın güvenliğine müdahale etme."
+      },
+      {
+        "h": "Üçüncü taraf hizmetler",
+        "p": "Weightly; Apple Sağlık, iCloud, Siri ve Apple Intelligence gibi Apple hizmetleriyle çalışır ve satın almaları doğrulamak için RevenueCat’i kullanır. Bu hizmetler kendi koşullarına tabidir. Bazı özelliklerin kullanılabilirliği cihazına, iOS sürümüne ve bölgene bağlıdır."
+      },
+      {
+        "h": "Uygulamadaki değişiklikler",
+        "p": "Weightly’yi geliştirmek için özellikleri güncelleyebilir, ekleyebilir veya kaldırabiliriz. Mevcut abonelik döneminde ücretini ödediğin bir PRO özelliğini, makul bir alternatif sunmadan elinden almayız."
+      },
+      {
+        "h": "Garanti ve sorumluluk",
+        "p": "Weightly “olduğu gibi” sunulur. Yasanın izin verdiği ölçüde, dolaylı veya sonuç olarak ortaya çıkan zararlardan ya da makul bir yedeklemeyle önlenebilecek veri kayıplarından sorumlu değiliz. Bu koşulların hiçbir hükmü, yasa gereği sınırlandırılamayan sorumluluğu sınırlamaz; ikamet ettiğin ülkedeki zorunlu tüketici hakların saklıdır."
+      },
+      {
+        "h": "Bu koşullardaki değişiklikler",
+        "p": "Uygulama değiştiğinde bu koşulları güncelleyebiliriz. Yukarıdaki tarih en güncel sürümü gösterir; önemli değişiklikler sürüm notlarında belirtilir. Bir değişiklikten sonra Weightly’yi kullanmaya devam edersen güncellenmiş koşullar geçerli olur."
+      },
+      {
+        "h": "İletişim",
+        "p": "Bu koşullarla ilgili soruların mı var? ardasnturk@me.com adresine yaz."
+      }
     ]
   },
   "supportPage": {
+    "eyebrow": "Yardım",
     "title": "Destek",
     "subtitle": "Yardımcı olmaktan memnuniyet duyarız. Çoğu sorunun cevabı aşağıda; yoksa bize yazman yeterli.",
-    "contactTitle": "İletişim",
-    "contactText": "Bize e-posta gönder; genellikle iki iş günü içinde yanıt veririz. Teknik sorularda iPhone modelini ve iOS sürümünü belirtirsen seviniriz.",
+    "contactTitle": "Bir insanla konuş",
+    "contactText": "Bize e-posta gönder; genellikle iki iş günü içinde yanıt veririz. Teknik sorularda lütfen iPhone modelini ve iOS sürümünü belirt.",
     "emailButton": "Destek e-postası gönder",
     "tipsTitle": "Hızlı çözümler",
     "tips": [
-      { "q": "Tartımın verileri görünmüyor", "a": "Sağlık uygulamasında profilin › Uygulamalar › Weightly’ye girip Kilo iznini aç. Ardından tartının uygulamasının Apple Sağlık’a yazdığından emin ol ve senkron için Bugün ekranında aşağı çek." },
-      { "q": "PRO satın alımımı geri yükleme", "a": "Ayarlar › Weightly PRO › Satın alımları geri yükle’ye dokun. Satın alırken kullandığın Apple Hesabı ile giriş yaptığından emin ol." },
-      { "q": "Verilerimi yeni iPhone’a taşıma", "a": "Ayarlar › Gizlilik’ten iCloud senkronunu aç ya da Ayarlar › Verilerin’den yedek dışa aktarıp yeni iPhone’da içe aktar." },
-      { "q": "Başka bir uygulamadan içe aktarma", "a": "Libra, Happy Scale, Renpho veya Withings’ten CSV dışa aktar, ardından Weightly’de Ayarlar › Verilerinlerin › Dosyadan İçe Aktar’ı seç." }
+      {
+        "q": "Tartımın verileri görünmüyor",
+        "a": "Sağlık uygulamasında profilin › Uygulamalar › Weightly’ye girip Kilo iznini aç. Tartının uygulamasının Apple Sağlık’a yazdığından emin ol, ardından senkron için Bugün ekranında aşağı çek."
+      },
+      {
+        "q": "Döngü günleri görünmüyor",
+        "a": "Ayarlar’dan Döngü farkındalığı’nı aç ve Sağlık uygulamasında Weightly için Döngü Takibi verilerine izin ver."
+      },
+      {
+        "q": "Destekçim ilerlememi göremiyor",
+        "a": "Daveti, iCloud’a giriş yapılmış ve Weightly yüklü bir iPhone’da açmasını iste. Ayarlar › Bir Destekçiyle Paylaş bölümünden kişileri davet edebilir ya da yönetebilir veya paylaşımı durdurabilirsin."
+      },
+      {
+        "q": "PRO satın alımımı geri yükleme",
+        "a": "Ayarlar › Weightly PRO › Satın alımları geri yükle’ye dokun. Satın alırken kullandığın Apple Hesabı ile giriş yaptığından emin ol."
+      },
+      {
+        "q": "Verilerimi yeni iPhone’a taşıma",
+        "a": "Ayarlar › Gizlilik’ten iCloud senkronunu aç ya da Ayarlar › Verilerin’den bir yedek dışa aktarıp yeni iPhone’da içe aktar."
+      },
+      {
+        "q": "Başka bir uygulamadan içe aktarma",
+        "a": "Libra, Happy Scale, Renpho veya Withings’ten bir CSV dışa aktar, ardından Weightly’de Ayarlar › Verilerin › Dosyadan İçe Aktar’ı seç."
+      }
     ]
   },
   "notFound": {
-    "title": "Sayfa bulunamadı",
+    "title": "Bu sayfa trendinden saptı.",
     "back": "Ana sayfaya dön"
   }
 }

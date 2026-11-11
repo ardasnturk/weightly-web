@@ -2,7 +2,7 @@
 // links (e.g. the privacy policy URL used by the app and App Store) load directly with status 200.
 import { copyFileSync, mkdirSync } from "node:fs";
 
-const routes = ["privacy", "support"];
+const routes = ["privacy", "terms", "support"];
 for (const route of routes) {
   mkdirSync(`dist/${route}`, { recursive: true });
   copyFileSync("dist/index.html", `dist/${route}/index.html`);

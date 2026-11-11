@@ -1,9 +1,10 @@
 {
   "meta": {
     "title": "Weightly – Suivi du poids avec tendance intelligente",
-    "description": "Voyez votre vraie tendance de poids, pas les variations quotidiennes. Synchro avec Santé, widgets, Apple Watch et Siri. Sans compte ni publicité : vos données restent sur vos appareils."
+    "description": "Voyez votre vraie tendance de poids, pas les variations quotidiennes. Synchro avec Apple Health, prise en compte du cycle, widgets, Apple Watch et Siri. Sans compte ni publicité : vos données restent sur vos appareils."
   },
   "nav": {
+    "new": "Nouveautés",
     "features": "Fonctions",
     "pro": "PRO",
     "privacy": "Confidentialité",
@@ -17,131 +18,538 @@
     "large": "App Store"
   },
   "hero": {
-    "eyebrow": "Nouveau : Weightly 2.0, entièrement repensé en natif pour iPhone",
-    "title": "Voyez la tendance, pas le bruit.",
-    "subtitle": "Votre poids varie chaque jour : eau, sel, sommeil. Weightly transforme ces variations en une seule courbe de tendance honnête, pour savoir où vous allez vraiment.",
+    "eyebrow": "Pics expliqués, prise en compte du cycle et plus encore",
+    "titleA": "Voyez la",
+    "titleEm": "tendance,",
+    "titleB": "pas le bruit.",
+    "subtitle": "Votre poids varie chaque jour : eau, sel, sommeil, hormones. Weightly transforme ces variations en une seule courbe de tendance honnête et vous explique pourquoi aujourd’hui est différent.",
+    "explore": "Découvrir les fonctions",
     "note": "Gratuit · Sans compte · Vos données restent sur vos appareils",
-    "imageAlt": "Écran Aujourd’hui de Weightly avec la tendance de poids lissée"
+    "imageAlt": "Écran Aujourd’hui de Weightly avec la tendance de poids lissée",
+    "chips": {
+      "rate": "−0,4 kg par semaine, régulier",
+      "spike": "Plus haut aujourd’hui ? Dîner salé",
+      "cycle": "Jour 24 du cycle · eau normale",
+      "goal": "Objectif : entre le 4 et le 28 mars"
+    }
   },
+  "marqueeLabel": "Points forts",
+  "marquee": [
+    "Tendance intelligente",
+    "Apple Health",
+    "Prise en compte du cycle",
+    "Apple Watch",
+    "Siri",
+    "Widgets interactifs",
+    "Journal GLP-1",
+    "Photos de progression",
+    "Partage avec un proche",
+    "Verrouillage Face ID",
+    "Aucun compte",
+    "Aucune publicité"
+  ],
   "trend": {
     "eyebrow": "L’idée",
-    "title": "Une façon plus sereine de lire la balance",
-    "body": "Weightly utilise une moyenne mobile pondérée exponentiellement, l’idée du classique Hacker’s Diet. Chaque pesée fait évoluer un peu la tendance ; les jours sans pesée sont pris en compte automatiquement. Vous voyez la direction et le rythme hebdomadaire, ainsi qu’une plage de dates réaliste pour votre objectif plutôt qu’une promesse.",
+    "titleA": "Une façon plus sereine de",
+    "titleEm": "lire la balance",
+    "body": "Weightly utilise une moyenne mobile pondérée exponentiellement, l’idée du classique Hacker's Diet. Chaque pesée fait évoluer un peu la tendance et les jours sans pesée sont pris en compte automatiquement. Vous voyez la direction, le rythme hebdomadaire et une plage de dates réaliste pour votre objectif plutôt qu’une promesse.",
     "scale": "Pesées quotidiennes",
-    "line": "Votre tendance"
+    "line": "Votre tendance",
+    "stats": [
+      {
+        "value": "±1,5 kg",
+        "label": "de variation quotidienne filtrée"
+      },
+      {
+        "value": "1 courbe",
+        "label": "qui dit la vérité"
+      },
+      {
+        "value": "0",
+        "label": "compte ou publicité"
+      }
+    ]
+  },
+  "new": {
+    "eyebrow": "Nouveau dans Weightly 2.1",
+    "titleA": "Encore plus à découvrir",
+    "titleEm": "dans vos propres données.",
+    "subtitle": "La mise à jour 2.1 est tournée vers la compréhension : pourquoi une pesée a grimpé, quel rôle joue votre cycle, et le partage de vos progrès avec ceux qui vous encouragent.",
+    "items": {
+      "spike": {
+        "title": "« Pourquoi plus haut aujourd’hui ? »",
+        "text": "Quand une pesée dépasse nettement votre tendance, Weightly examine les étiquettes que vous avez ajoutées (repas salé, repas tardif, alcool, entraînement, voyage, mauvais sommeil) ainsi que votre cycle, et vous en explique la raison probable. Un pic ne ressemble plus à un recul.",
+        "bubbleTitle": "+0,9 kg au-dessus de la tendance",
+        "bubbleText": "Dîner salé et mauvais sommeil : le corps retient de l’eau pendant un jour ou deux."
+      },
+      "cycle": {
+        "title": "Prise en compte du cycle",
+        "text": "Les jours du cycle issus d’Apple Health apparaissent sur votre graphique et dans Aujourd’hui : la rétention d’eau attendue se reconnaît facilement."
+      },
+      "partner": {
+        "title": "Partager avec un proche",
+        "text": "Invitez votre partenaire, un ami ou votre coach via iCloud. Ils voient votre direction, le nombre de jours enregistrés et la progression de votre objectif ; les chiffres uniquement si vous les incluez.",
+        "alt": "Un couple sur un canapé regardant Weightly ensemble"
+      },
+      "medication": {
+        "title": "Un journal des médicaments plus malin",
+        "text": "Stock de stylos, rappels de réassort et un point rapide sur l’appétit pour les utilisateurs de GLP-1."
+      },
+      "share": {
+        "title": "Partagez vos progrès",
+        "text": "Une carte de progression soignée pour vos messages ou vos stories, avec ou sans chiffres."
+      },
+      "siri": {
+        "title": "« Où j’en suis ? »",
+        "text": "Demandez à Siri et écoutez votre tendance, votre évolution de la semaine et la progression de votre objectif."
+      },
+      "whatsnew": {
+        "title": "Une visite guidée à chaque mise à jour",
+        "text": "Après chaque mise à jour, une courte visite animée présente les nouveautés de l’app."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Pensé pour la vraie vie",
+    "titleA": "Trouve naturellement sa place dans",
+    "titleEm": "votre quotidien.",
+    "items": {
+      "today": {
+        "title": "Aujourd’hui",
+        "text": "Votre tendance, votre rythme hebdomadaire et votre objectif en un coup d’œil, avec la raison derrière le chiffre du jour."
+      },
+      "trends": {
+        "title": "Tendances",
+        "text": "Semaines, mois ou années. Pics, jours du cycle et étiquettes directement sur le graphique."
+      },
+      "insights": {
+        "title": "Analyses",
+        "text": "Bilans, profil par jour et l’effet réel de vos étiquettes sur la balance."
+      },
+      "body": {
+        "title": "Corps",
+        "text": "Mensurations, composition corporelle et photos de progression privées."
+      },
+      "log": {
+        "title": "Saisie",
+        "text": "Une pesée en deux touchers, ou depuis un widget, votre Watch ou Siri."
+      },
+      "medication": {
+        "title": "Médicaments",
+        "text": "Doses, sites d’injection, stock et appétit, réunis en un seul endroit serein."
+      }
+    }
   },
   "features": {
     "eyebrow": "Tout ce qu’il vous faut",
-    "title": "Simple en surface. Intelligent en dessous.",
-    "subtitle": "Conçu avec SwiftUI pour iOS 26 : rapide, accessible et pensé pour se sentir chez soi sur votre iPhone. Optimisée pour iPhone Duo : des dispositions adaptées aux écrans intérieur et extérieur, sans perdre votre progression en pliant et dépliant.",
+    "titleA": "Simple en surface.",
+    "titleEm": "Intelligent en dessous.",
+    "subtitle": "Conçu avec SwiftUI pour iOS 26 : rapide, accessible et à l’aise sur chaque iPhone, y compris l’iPhone Duo avec des dispositions adaptées à ses deux écrans.",
+    "free": "Tout cela est gratuit",
     "items": {
-      "trend": { "title": "Tendance intelligente", "text": "Un lissage qui tient compte des pauses, un rythme hebdomadaire et une détection des plateaux qui vous dit quand tout est simplement stable." },
-      "health": { "title": "Synchro avec Santé", "text": "Synchronisation bidirectionnelle avec les données de votre balance connectée, la composition corporelle, les pas et le sommeil, sans doublons." },
-      "goals": { "title": "Des objectifs à votre mesure", "text": "Perdre, prendre ou se maintenir dans une plage. Une plage de dates honnête plutôt qu’une échéance." },
-      "body": { "title": "Corps et photos", "text": "Taille, hanches, poitrine et plus. Des photos de progression privées avec comparaison côte à côte et en superposition." },
-      "hide": { "title": "Masquer les chiffres", "text": "Vous préférez ne pas voir les chiffres ? Affichez seulement la direction ou masquez complètement les valeurs, pour un rapport plus serein." },
-      "glp1": { "title": "Journal GLP-1 et médicaments", "text": "Notez les doses et sites d’injection, recevez des rappels et partagez un PDF avec votre médecin." },
-      "export": { "title": "Import et export", "text": "Importez votre historique depuis Libra, Happy Scale, Renpho ou Withings. Exportez en CSV ou JSON à tout moment." },
-      "lock": { "title": "Verrouillage Face ID", "text": "Protégez vos données avec Face ID et un écran de confidentialité dans le sélecteur d’apps." }
+      "trend": {
+        "title": "Tendance intelligente",
+        "text": "Un lissage qui tient compte des pauses, un rythme hebdomadaire et une détection des plateaux qui vous dit quand tout est simplement stable."
+      },
+      "health": {
+        "title": "Synchro avec Apple Health",
+        "text": "Synchronisation bidirectionnelle avec votre balance connectée, la composition corporelle, les pas, le sommeil et le cycle, sans doublons."
+      },
+      "goals": {
+        "title": "Des objectifs à votre mesure",
+        "text": "Perdre, prendre ou se maintenir dans une plage. Une plage de dates honnête plutôt qu’une échéance."
+      },
+      "body": {
+        "title": "Corps et photos",
+        "text": "Taille, hanches, poitrine et plus. Des photos de progression privées avec comparaison côte à côte et en superposition."
+      },
+      "hide": {
+        "title": "Masquer les chiffres",
+        "text": "Affichez seulement la direction ou masquez complètement les valeurs, pour un rapport plus serein à votre poids."
+      },
+      "glp1": {
+        "title": "Journal GLP-1 et médicaments",
+        "text": "Doses, sites d’injection, stock de stylos et rappels, plus un PDF pour votre médecin."
+      },
+      "export": {
+        "title": "Import et export",
+        "text": "Importez votre historique depuis Libra, Happy Scale, Renpho ou Withings. Exportez en CSV ou JSON à tout moment."
+      },
+      "lock": {
+        "title": "Verrouillage Face ID",
+        "text": "Protégez vos données avec Face ID et un écran de confidentialité dans le sélecteur d’apps."
+      }
     }
   },
   "everywhere": {
     "eyebrow": "Toujours à portée de doigt",
-    "title": "Enregistrez en quelques secondes, où que vous soyez",
+    "titleA": "Enregistrez en quelques secondes,",
+    "titleEm": "où que vous soyez.",
     "subtitle": "La pesée la plus rapide est celle qui ne demande pas d’ouvrir une app.",
-    "widgets": { "title": "Widgets interactifs", "text": "Ajustez et enregistrez le poids du jour directement sur l’écran d’accueil. Widgets de tendance pour l’accueil et l’écran verrouillé." },
-    "watch": { "title": "Apple Watch", "text": "Enregistrez avec la Digital Crown et voyez votre tendance dans une complication." },
-    "siri": { "title": "Siri et Raccourcis", "text": "« Enregistrer mon poids dans Weightly », aussi avec le bouton Action." },
-    "control": { "title": "Centre de contrôle", "text": "Une commande « Enregistrer le poids » ouvre la saisie instantanément." },
+    "widgets": {
+      "title": "Widgets interactifs",
+      "text": "Ajustez et enregistrez le poids du jour directement sur l’écran d’accueil. Widgets de tendance pour l’écran d’accueil et l’écran verrouillé."
+    },
+    "watch": {
+      "title": "Apple Watch",
+      "text": "Enregistrez avec la Digital Crown et voyez votre tendance dans une complication."
+    },
+    "siri": {
+      "title": "Siri et Raccourcis",
+      "text": "« Enregistrer mon poids dans Weightly » ou « Où j’en suis », aussi avec le bouton Action."
+    },
+    "control": {
+      "title": "Centre de contrôle",
+      "text": "Une commande « Enregistrer le poids » ouvre la saisie instantanément."
+    },
     "widgetAlt": "Widgets Weightly sur l’écran d’accueil de l’iPhone",
     "watchAlt": "Enregistrer son poids sur l’Apple Watch avec la Digital Crown"
   },
   "pro": {
     "eyebrow": "Weightly PRO",
-    "title": "Allez plus loin quand vous le voulez",
-    "subtitle": "Tout ce qui précède est gratuit. PRO ajoute des outils pour comprendre votre progression, et votre première semaine est offerte.",
-    "gift": "7 jours de PRO offerts au premier lancement. Sans paiement ni abonnement : cela s’arrête simplement.",
-    "plans": "Ensuite : formules hebdomadaire, mensuelle, trimestrielle ou annuelle avec un prix de bienvenue pour la première période, ou un achat unique à vie.",
+    "titleA": "Allez plus loin",
+    "titleEm": "quand vous le voulez.",
+    "subtitle": "Tout ce qui précède est gratuit. PRO ajoute des outils pour comprendre votre progression, et la version 2.1 en apporte neuf nouveaux.",
+    "gift": "7 jours de PRO offerts au premier lancement. Sans paiement ni abonnement : cela s’arrête simplement.",
+    "welcome": "Nouveau venu ? Une fois la configuration terminée, vous recevez une offre de bienvenue unique : 3 mois de PRO à moitié prix avec 3 jours offerts, valable 24 heures.",
+    "newBadge": "Nouveau",
+    "plans": "Formules : abonnement hebdomadaire, mensuel, trimestriel ou annuel, ou achat unique à vie. Le paiement est débité sur votre compte Apple ; les abonnements se renouvellent automatiquement sauf résiliation au moins 24 heures avant la fin de la période.",
     "items": {
-      "insights": { "title": "Analyses", "text": "Bilans hebdomadaires et mensuels, comparaison de périodes, profil par jour et séries." },
-      "milestones": { "title": "Étapes de l’objectif", "text": "Étapes au quart, à mi-chemin et aux trois quarts, avec la date où votre tendance les a atteintes." },
-      "report": { "title": "Rapport de progression", "text": "Un PDF d’une page avec graphique, bilans et mensurations, à garder ou à partager." },
-      "timelapse": { "title": "Timelapse des photos", "text": "Transformez vos photos de progression en une courte vidéo, créée sur votre iPhone, jamais envoyée." },
-      "widgets": { "title": "Widgets de progression", "text": "Un grand widget avec graphique et progression de l’objectif, plus une jauge pour l’écran verrouillé." },
-      "themes": { "title": "Thèmes de couleur", "text": "Huit couleurs d’accent pour l’app et vos widgets." }
+      "summary": {
+        "title": "Bilan hebdo privé",
+        "text": "Un résumé de votre semaine en langage clair, rédigé par Apple Intelligence sur votre appareil."
+      },
+      "tags": {
+        "title": "Analyse des étiquettes",
+        "text": "Découvrez l’effet réel des dîners tardifs, de l’alcool, de l’entraînement ou des voyages sur votre poids."
+      },
+      "cyclePattern": {
+        "title": "Profil de cycle",
+        "text": "Votre courbe de cycle typique, et une tendance qui exclut les jours du cycle."
+      },
+      "dose": {
+        "title": "Phases de dose",
+        "text": "Comparez votre tendance selon les doses de médicament et les paliers de titration."
+      },
+      "energy": {
+        "title": "Bilan énergétique",
+        "text": "Une estimation de votre dépense énergétique quotidienne (TDEE) à partir de votre tendance et de l’énergie alimentaire."
+      },
+      "composition": {
+        "title": "Masse grasse et masse maigre",
+        "text": "Les tendances de masse grasse et de masse maigre issues de votre balance connectée."
+      },
+      "planner": {
+        "title": "Planificateur « Et si »",
+        "text": "Jouez avec un rythme hebdomadaire et voyez quand vous pourriez atteindre votre objectif."
+      },
+      "ghost": {
+        "title": "Repère d’alignement photo",
+        "text": "Un calque de votre dernière photo vous aide à aligner chaque nouvelle prise."
+      },
+      "icons": {
+        "title": "Icônes de l’app et styles de partage",
+        "text": "Sept icônes alternatives et des styles de cartes de partage supplémentaires."
+      },
+      "insights": {
+        "title": "Analyses",
+        "text": "Bilans hebdomadaires et mensuels, comparaison de périodes, profil par jour et séries."
+      },
+      "milestones": {
+        "title": "Étapes de l’objectif",
+        "text": "Étapes au quart, à mi-chemin et aux trois quarts, avec la date à laquelle vous avez atteint chacune."
+      },
+      "report": {
+        "title": "Rapport de progression",
+        "text": "Un PDF soigné d’une page avec graphique, bilans et mensurations."
+      },
+      "timelapse": {
+        "title": "Timelapse des photos",
+        "text": "Vos photos de progression en une courte vidéo, créée sur votre iPhone, jamais envoyée."
+      },
+      "widgets": {
+        "title": "Widgets de progression et thèmes",
+        "text": "Un grand widget avec graphique, une jauge d’objectif pour l’écran verrouillé et huit thèmes de couleur."
+      }
     }
+  },
+  "atleva": {
+    "eyebrow": "Mieux ensemble",
+    "titleA": "Associez votre tendance à",
+    "titleEm": "Atleva.",
+    "body": "Atleva est notre app d’entraînement à la maison : un programme personnel sans matériel et un coach par caméra qui compte vos répétitions et note votre exécution. Weightly enregistre votre poids dans Apple Health et Atleva s’en sert pour adapter votre programme ; les séances d’Atleva apparaissent aussi en énergie active à côté de votre tendance.",
+    "button": "Obtenir Atleva sur l’App Store"
   },
   "privacy": {
     "eyebrow": "Confidentialité dès la conception",
-    "title": "Votre corps. Vos données. Vos appareils.",
-    "subtitle": "Weightly n’a ni serveurs ni comptes. Nous ne pourrions pas voir vos données même si nous le voulions.",
+    "titleA": "Votre corps. Vos données.",
+    "titleEm": "Vos appareils.",
+    "subtitle": "Weightly n’a ni serveurs pour vos données de santé ni comptes. Nous ne pourrions pas voir vos pesées même si nous le voulions.",
     "points": {
-      "account": { "title": "Aucun compte", "text": "Ouvrez l’app et commencez. Aucune inscription." },
-      "device": { "title": "Reste sur l’appareil", "text": "Vos données restent sur votre iPhone. La synchro iCloud facultative utilise votre iCloud privé." },
-      "ads": { "title": "Ni publicité ni pistage", "text": "Aucun SDK d’analyse, aucune régie publicitaire, aucun courtier en données." },
-      "health": { "title": "Les données de santé restent des données de santé", "text": "Les données de Santé ne servent jamais à la publicité et ne sont partagées avec personne." }
+      "account": {
+        "title": "Aucun compte",
+        "text": "Ouvrez l’app et commencez. Aucune inscription."
+      },
+      "device": {
+        "title": "Reste sur l’appareil",
+        "text": "Vos saisies restent sur votre iPhone. La synchro iCloud et le partage, facultatifs, utilisent votre iCloud privé."
+      },
+      "ads": {
+        "title": "Ni publicité ni pistage",
+        "text": "Aucun SDK d’analyse, aucune régie publicitaire, aucun courtier en données."
+      },
+      "health": {
+        "title": "Les données de santé restent des données de santé",
+        "text": "Les données d’Apple Health ne servent jamais à la publicité et ne sont partagées avec personne."
+      }
     },
     "link": "Lire la politique de confidentialité"
   },
   "faq": {
-    "title": "Questions et réponses",
+    "titleA": "Questions et",
+    "titleEm": "réponses",
+    "subtitle": "L’essentiel de ce que l’on nous demande le plus souvent.",
+    "support": "Plus d’aide sur la page d’assistance",
     "items": [
-      { "q": "Weightly est-elle gratuite ?", "a": "Oui. La saisie, la tendance, les objectifs, Santé, les widgets, l’Apple Watch, Siri, les mensurations, les photos, le journal des médicaments et l’export sont gratuits. Weightly PRO est facultatif et ajoute les analyses, les étapes, le rapport PDF, le timelapse, les widgets de progression et les thèmes de couleur." },
-      { "q": "Comment fonctionne la semaine PRO offerte ?", "a": "Elle démarre automatiquement à la première ouverture de Weightly 2.0. Vous ne saisissez aucune information de paiement et rien ne se renouvelle : après sept jours, les fonctions PRO se verrouillent simplement. Vos données ne sont jamais verrouillées." },
-      { "q": "Faut-il un compte ?", "a": "Non. Pas d’inscription, pas de serveur Weightly. Vos données restent sur vos appareils et, si vous l’activez, dans votre iCloud privé." },
-      { "q": "Weightly fonctionne-t-elle avec ma balance connectée ?", "a": "Si l’app de votre balance écrit dans Santé (Withings, Renpho, Eufy, Garmin et bien d’autres), Weightly récupère automatiquement les nouvelles pesées et évite les doublons." },
-      { "q": "Pourquoi la tendance diffère-t-elle du poids du jour ?", "a": "Le poids quotidien varie d’un kilo ou plus selon l’eau et l’alimentation. La tendance fait la moyenne de ces variations pour qu’un dîner salé ne ressemble pas à un recul." },
-      { "q": "Comment résilier un abonnement ?", "a": "Ouvrez Réglages sur votre iPhone, touchez votre nom puis Abonnements. Vous pouvez résilier au moins 24 heures avant le renouvellement ; PRO reste actif jusqu’à la fin de la période payée." }
+      {
+        "q": "Weightly est-elle gratuite ?",
+        "a": "Oui. La saisie, la tendance, les objectifs, Apple Health, la prise en compte du cycle, « Pourquoi plus haut aujourd’hui ? », le partage avec un proche, les widgets, l’Apple Watch, Siri, les mensurations, les photos, le journal des médicaments et l’export sont gratuits. Weightly PRO est facultatif et ajoute des analyses plus poussées, le bilan hebdomadaire, le planificateur, les rapports et plus encore."
+      },
+      {
+        "q": "Comment fonctionnent la semaine PRO offerte et l’offre de bienvenue ?",
+        "a": "La semaine offerte démarre automatiquement à la première ouverture de Weightly. Vous ne saisissez aucune information de paiement et rien ne se renouvelle : après sept jours, PRO se verrouille simplement. Les nouveaux utilisateurs voient aussi, après la configuration, une offre de bienvenue unique : 3 mois de PRO à moitié prix avec un essai gratuit de 3 jours, disponible pendant 24 heures. Vos données ne sont jamais verrouillées."
+      },
+      {
+        "q": "Faut-il un compte ?",
+        "a": "Non. Aucune inscription. Vos données restent sur vos appareils et, si vous l’activez, dans votre iCloud privé."
+      },
+      {
+        "q": "Comment fonctionne le partage avec un proche ?",
+        "a": "Dans Réglages › Partager avec un proche, vous créez une invitation iCloud et l’envoyez à une personne de confiance. Elle voit votre direction, les jours enregistrés et la progression de votre objectif dans sa propre app Weightly ; les chiffres uniquement si vous les incluez. Vous pouvez arrêter le partage à tout moment."
+      },
+      {
+        "q": "Le bilan hebdomadaire envoie-t-il mes données à des serveurs d’IA ?",
+        "a": "Non. Le bilan utilise Apple Intelligence sur votre iPhone (iOS 26 ou version ultérieure sur les appareils compatibles). Vos données ne quittent jamais l’appareil pour cela."
+      },
+      {
+        "q": "Weightly fonctionne-t-elle avec ma balance connectée ?",
+        "a": "Si l’app de votre balance écrit dans Apple Health (Withings, Renpho, Eufy, Garmin et bien d’autres), Weightly récupère automatiquement les nouvelles pesées et évite les doublons."
+      },
+      {
+        "q": "Pourquoi la tendance diffère-t-elle du poids du jour ?",
+        "a": "Le poids quotidien varie d’un kilo ou plus selon l’eau, l’alimentation et les hormones. La tendance fait la moyenne de ces variations pour qu’un dîner salé ne ressemble pas à un recul."
+      },
+      {
+        "q": "Comment résilier un abonnement ?",
+        "a": "Ouvrez Réglages sur votre iPhone, touchez votre nom puis Abonnements. Résiliez au moins 24 heures avant le renouvellement ; PRO reste actif jusqu’à la fin de la période payée."
+      }
     ]
   },
   "cta": {
-    "title": "Voyez enfin votre vraie progression",
-    "subtitle": "Weightly 2.0 est disponible pour iPhone et Apple Watch en français, anglais, turc, allemand, espagnol et italien."
+    "titleA": "Voyez enfin votre",
+    "titleEm": "vraie progression.",
+    "subtitle": "Weightly 2.1 est disponible pour iPhone et Apple Watch en anglais, turc, allemand, espagnol, italien et français."
   },
   "footer": {
     "tagline": "Un suivi du poids serein et privé pour iPhone et Apple Watch.",
+    "app": "App",
+    "help": "Aide et mentions légales",
     "privacy": "Politique de confidentialité",
     "support": "Assistance",
-    "terms": "Conditions d’utilisation (CLUF)",
+    "terms": "Conditions d’utilisation",
     "rights": "© {{year}} Arda Şentürk. Tous droits réservés.",
     "wellness": "Weightly est une app de bien-être général et ne fournit ni conseil, ni diagnostic, ni traitement médical.",
-    "apple": "Apple, iPhone, Apple Watch, Santé et Siri sont des marques d’Apple Inc."
+    "apple": "Apple, iPhone, Apple Watch, Apple Health, Apple Intelligence, iCloud et Siri sont des marques d’Apple Inc."
+  },
+  "legal": {
+    "toc": "Sur cette page"
   },
   "privacyPage": {
+    "eyebrow": "Mentions légales",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 14 octobre 2026",
-    "intro": "Weightly est conçue pour que vos données personnelles restent chez vous. Cette politique explique ce que l’app traite, où c’est stocké et quels sont vos droits.",
+    "updated": "Dernière mise à jour : 11 novembre 2026 (Weightly 2.1)",
+    "intro": "Weightly est conçue pour que vos données personnelles restent chez vous. Cette politique explique ce que l’app traite, où ces données sont stockées, quels services interviennent et quels sont vos droits.",
     "sections": [
-      { "h": "Responsable", "p": "Weightly est développée par Arda Şentürk. Pour toute question relative à la confidentialité, écrivez à ardasnturk@me.com." },
-      { "h": "Ni compte ni serveur", "p": "Weightly ne nécessite aucun compte et n’exploite aucun serveur. Nous ne collectons, ne recevons ni ne stockons vos pesées, mensurations, photos, notes, prises de médicaments ou réglages." },
-      { "h": "Données stockées sur votre appareil", "p": "Tout ce que vous saisissez est stocké localement dans l’espace protégé de l’app sur votre iPhone (et votre Apple Watch, si vous l’utilisez) et dans un App Group partagé avec les widgets Weightly. Les photos de progression sont conservées dans l’app avec la protection des données d’iOS et ne sont jamais ajoutées à votre photothèque sauf si vous les exportez." },
-      { "h": "Synchro iCloud (facultative)", "p": "Si vous activez la synchro iCloud, vos données sont synchronisées via CloudKit d’Apple avec votre base iCloud privée. Elles sont chiffrées par Apple et accessibles uniquement à votre compte Apple. Nous n’y avons pas accès." },
-      { "h": "Apple Santé", "p": "Avec votre autorisation, Weightly lit dans Santé le poids, la composition corporelle, les mensurations, la taille, les pas, l’énergie active, le sommeil et (iOS 26) les données de médicaments, et y écrit les pesées et mensurations que vous enregistrez. Les données de santé servent uniquement à fournir les fonctions de l’app sur votre appareil. Elles ne sont jamais utilisées à des fins publicitaires, jamais vendues et jamais partagées avec des tiers. Vous pouvez modifier les autorisations à tout moment dans l’app Santé." },
-      { "h": "Achats", "p": "Weightly PRO est vendu via l’App Store d’Apple. Apple traite le paiement ; nous ne recevons jamais vos informations de paiement. L’app vérifie l’état de votre achat sur l’appareil avec StoreKit d’Apple. La semaine PRO offerte est enregistrée uniquement sur votre appareil." },
-      { "h": "Ni analyse, ni publicité, ni pistage", "p": "Weightly ne contient aucun SDK d’analyse ou de publicité et ne vous suit pas d’une app ou d’un site à l’autre. Apple peut nous fournir des statistiques agrégées et anonymes de l’App Store (téléchargements, taux de plantage) si vous avez accepté de les partager avec les développeurs dans les réglages de votre appareil." },
-      { "h": "Notifications", "p": "Les rappels sont programmés localement sur votre appareil. Aucun serveur push n’intervient." },
-      { "h": "Export et partage", "p": "Les exports CSV/JSON, les rapports PDF et les vidéos timelapse sont créés sur votre appareil. Ils ne le quittent que si vous choisissez de les partager ou de les enregistrer, et relèvent alors des règles de l’app ou du service concerné." },
-      { "h": "Enfants", "p": "Weightly ne s’adresse pas aux enfants de moins de 13 ans (ou de l’âge minimum dans votre pays) et ne traite pas sciemment leurs données." },
-      { "h": "Vos droits", "p": "Comme vos données restent sur vos appareils, vous en gardez le contrôle total : vous pouvez les consulter, les exporter et les supprimer à tout moment dans Réglages › Vos données. Supprimer l’app efface ses données locales. En vertu du RGPD et de lois similaires, vous avez aussi le droit de nous contacter et d’introduire une réclamation auprès d’une autorité de contrôle." },
-      { "h": "Modifications", "p": "Si cette politique change, nous mettrons à jour cette page et la date ci-dessus. Les changements importants seront également mentionnés dans les notes de version de l’app." }
+      {
+        "h": "Responsable du traitement",
+        "p": "Weightly est développée par Arda Şentürk (le « développeur », « nous »). Pour toute question ou demande relative à la confidentialité, écrivez à ardasnturk@me.com."
+      },
+      {
+        "h": "Aucun compte, aucune donnée de santé sur nos serveurs",
+        "p": "Weightly ne nécessite aucun compte. Nous n’exploitons aucun serveur pour vos données et nous ne collectons, ne recevons ni ne stockons vos pesées, mensurations, photos, notes, étiquettes, données de cycle ou de médicaments, ni vos réglages."
+      },
+      {
+        "h": "Données stockées sur votre appareil",
+        "p": "Tout ce que vous saisissez est stocké localement dans l’espace protégé de l’app sur votre iPhone (et votre Apple Watch, si vous l’utilisez) et dans un App Group partagé avec les widgets de Weightly. Les photos de progression restent dans l’app avec la protection des données d’iOS et ne sont jamais ajoutées à votre photothèque, sauf si vous les exportez. Les offres uniques et la semaine PRO offerte sont enregistrées uniquement sur votre appareil."
+      },
+      {
+        "h": "Synchro iCloud (facultative)",
+        "p": "Si vous activez la synchro iCloud, vos données sont synchronisées via CloudKit d’Apple avec votre base de données iCloud privée. Elles sont protégées par Apple et accessibles uniquement à votre compte Apple. Nous n’y avons pas accès."
+      },
+      {
+        "h": "Partage avec un proche (facultatif)",
+        "p": [
+          "Si vous invitez un proche, Weightly crée un partage iCloud (Apple CloudKit) qui contient uniquement un court résumé de votre progression : la direction de votre tendance, le nombre de jours enregistrés cette semaine et la progression de votre objectif, ainsi que la valeur de votre tendance et votre évolution hebdomadaire uniquement si vous activez « Inclure les chiffres ». Ce partage est stocké dans votre iCloud et visible uniquement par les personnes qui acceptent votre invitation.",
+          "Vous choisissez qui inviter et pouvez arrêter le partage à tout moment dans les Réglages ; les personnes que vous retirez perdent l’accès. Si quelqu’un partage avec vous, son résumé s’affiche dans votre app et n’est utilisé à aucune autre fin."
+        ]
+      },
+      {
+        "h": "Apple Health",
+        "p": "Avec votre autorisation, Weightly lit dans Apple Health le poids, la composition corporelle (masse grasse, masse maigre), les mensurations, la taille, les pas, l’énergie active, le sommeil, les données du cycle menstruel, l’énergie alimentaire et (iOS 26) les données de médicaments, et y écrit les pesées et mensurations que vous enregistrez. Les données de santé servent uniquement à fournir les fonctions de l’app sur votre appareil. Elles ne sont jamais utilisées à des fins publicitaires, jamais vendues et jamais partagées avec des tiers. Vous pouvez modifier les autorisations à tout moment dans l’app Santé."
+      },
+      {
+        "h": "Apple Intelligence (PRO, facultatif)",
+        "p": "Le bilan hebdomadaire privé est généré avec les modèles Foundation Models d’Apple, exécutés sur l’appareil, sur les appareils compatibles équipés d’iOS 26 ou version ultérieure. Vos données sont traitées sur votre iPhone et ne sont envoyées ni à nous ni à aucun service d’IA."
+      },
+      {
+        "h": "Siri et Raccourcis",
+        "p": "Si vous utilisez Siri, Raccourcis ou le bouton Action avec Weightly, votre demande est traitée par Apple conformément à la politique de confidentialité d’Apple. Weightly répond sur votre appareil."
+      },
+      {
+        "h": "Achats et RevenueCat",
+        "p": [
+          "Weightly PRO est vendu via l’App Store d’Apple. Apple traite le paiement ; nous ne recevons jamais vos informations de paiement.",
+          "Pour valider les achats et gérer l’accès à PRO, nous utilisons RevenueCat (RevenueCat, Inc.). RevenueCat reçoit un identifiant d’utilisateur de l’app aléatoire et anonyme, votre historique d’achats et d’abonnements (produit, prix, dates, identifiants de transaction de la boutique) ainsi que des données techniques de base telles que la version de l’app, le type d’appareil, le système d’exploitation, le pays/la boutique et l’adresse IP. RevenueCat ne reçoit aucune donnée de santé. Consultez la politique de confidentialité de RevenueCat sur revenuecat.com/privacy."
+        ]
+      },
+      {
+        "h": "Ni analyse, ni publicité, ni pistage",
+        "p": "Weightly ne contient aucun SDK d’analyse ou de publicité et ne vous suit pas d’une app ou d’un site web à l’autre. Apple peut nous fournir des statistiques agrégées et anonymes de l’App Store (comme les téléchargements et les taux de plantage) si vous avez accepté de les partager avec les développeurs dans les réglages de votre appareil."
+      },
+      {
+        "h": "Notifications",
+        "p": "Les rappels, les avis de réassort et le compte à rebours de l’offre de bienvenue sont programmés localement sur votre appareil. Aucun serveur push n’intervient."
+      },
+      {
+        "h": "Exports et partage",
+        "p": "Les exports CSV/JSON, les rapports PDF, les cartes de partage et les vidéos timelapse sont créés sur votre appareil. Ils ne le quittent que si vous choisissez de les partager ou de les enregistrer, et relèvent alors des règles de l’app ou du service avec lequel vous les partagez."
+      },
+      {
+        "h": "Liens vers d’autres apps",
+        "p": "Weightly peut afficher une page consacrée à notre app sœur Atleva et ouvrir sa page sur l’App Store. Aucune donnée n’est transmise à Atleva à cette occasion."
+      },
+      {
+        "h": "Bases légales (RGPD)",
+        "p": "Lorsque le RGPD s’applique, le traitement sur votre appareil a lieu à votre demande afin de fournir l’app (art. 6, par. 1, point b) ; les données de santé ne sont traitées qu’avec votre consentement explicite, donné via les demandes d’autorisation d’iOS (art. 9, par. 2, point a), que vous pouvez retirer à tout moment. La validation des achats via RevenueCat est nécessaire pour fournir PRO (art. 6, par. 1, point b) et pour respecter nos obligations légales (art. 6, par. 1, point c)."
+      },
+      {
+        "h": "Enfants",
+        "p": "Weightly ne s’adresse pas aux enfants de moins de 13 ans (ou de l’âge minimum en vigueur dans votre pays) et ne traite pas sciemment leurs données."
+      },
+      {
+        "h": "Vos droits",
+        "p": "Comme vos données restent sur vos appareils, vous en gardez le contrôle total : vous pouvez les consulter, les exporter et les supprimer à tout moment dans Réglages › Vos données, et arrêter la synchro iCloud ou le partage quand vous le souhaitez. Supprimer l’app efface ses données locales. Vous pouvez également nous interroger sur les données d’achat détenues par RevenueCat, et vous avez le droit d’introduire une réclamation auprès d’une autorité de contrôle."
+      },
+      {
+        "h": "Modifications",
+        "p": "Si cette politique change, nous mettrons à jour cette page et la date ci-dessus. Les changements importants seront également mentionnés dans les notes de version de l’app."
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Mentions légales",
+    "title": "Conditions d’utilisation",
+    "updated": "Dernière mise à jour : 11 novembre 2026 (Weightly 2.1)",
+    "intro": "Les présentes conditions s’appliquent à votre utilisation de l’app Weightly pour iPhone et Apple Watch ainsi qu’à Weightly PRO. Veuillez les lire conjointement avec le Contrat de licence utilisateur final des applications sous licence d’Apple (CLUF standard), qui s’applique également.",
+    "sections": [
+      {
+        "h": "Acceptation",
+        "p": "En téléchargeant ou en utilisant Weightly, vous acceptez les présentes conditions ainsi que le CLUF standard d’Apple (apple.com/legal/internet-services/itunes/dev/stdeula). En cas de contradiction entre les deux, le CLUF standard d’Apple prévaut pour les questions qu’il couvre. Weightly est fournie par Arda Şentürk."
+      },
+      {
+        "h": "Votre licence",
+        "p": "Vous bénéficiez d’une licence personnelle, non transférable et non exclusive pour utiliser Weightly sur les appareils Apple que vous possédez ou contrôlez, dans les limites autorisées par les Règles d’utilisation de l’App Store. Vous ne pouvez pas copier, modifier, désassembler (rétro-ingénierie) ni revendre l’app, sauf dans la mesure où la loi l’autorise."
+      },
+      {
+        "h": "Pas un avis médical",
+        "p": "Weightly est une app de bien-être général. Les tendances, explications, bilans, estimations (comme la dépense énergétique ou les dates d’objectif) et journaux de médicaments sont fournis à titre informatif uniquement et ne constituent ni un avis, ni un diagnostic, ni un traitement médical. Consultez toujours un professionnel de santé qualifié avant de modifier votre alimentation, votre entraînement ou votre traitement. En cas d’urgence, contactez les services d’urgence locaux."
+      },
+      {
+        "h": "Abonnements Weightly PRO",
+        "p": [
+          "PRO est disponible sous forme d’abonnements à renouvellement automatique (hebdomadaire, mensuel, 3 mois ou annuel) ou d’achat unique à vie. Les prix sont indiqués dans l’app avant l’achat et peuvent varier selon le pays.",
+          "Le paiement est débité sur votre compte Apple lorsque vous confirmez l’achat. Les abonnements se renouvellent automatiquement au même prix et pour la même durée, sauf si vous les résiliez au moins 24 heures avant la fin de la période en cours. Vous pouvez gérer et résilier vos abonnements dans les réglages de votre compte Apple. Si un essai gratuit est proposé, toute partie non utilisée prend fin lorsque vous souscrivez un abonnement.",
+          "Les remboursements sont gérés par Apple selon ses propres règles ; nous ne pouvons pas effectuer de remboursement nous-mêmes."
+        ]
+      },
+      {
+        "h": "Semaine PRO offerte et offre de bienvenue",
+        "p": [
+          "Les nouveaux utilisateurs bénéficient de 7 jours de PRO gratuits au premier lancement. Aucune information de paiement n’est nécessaire et rien ne se renouvelle ; les fonctions PRO se verrouillent ensuite à nouveau. Vos données restent toujours accessibles.",
+          "Après la configuration, les nouveaux utilisateurs peuvent également voir une offre de bienvenue unique : 3 mois de PRO à la moitié du prix normal de la formule 3 mois, avec un essai gratuit de 3 jours, disponible pendant 24 heures sur cet appareil. L’essai et le prix de lancement sont proposés une seule fois par compte Apple et par groupe d’abonnements, selon les règles déterminées par Apple. Après les 3 premiers mois, l’abonnement se renouvelle au prix indiqué lors de l’achat, sauf résiliation."
+        ]
+      },
+      {
+        "h": "Votre contenu",
+        "p": "Tout ce que vous saisissez (pesées, mensurations, photos, notes et journaux) vous appartient. Comme ces données sont stockées sur vos appareils et, si vous le souhaitez, dans votre iCloud, il vous incombe d’en conserver des sauvegardes (par exemple avec la synchro iCloud ou la fonction d’export)."
+      },
+      {
+        "h": "Partage avec un proche",
+        "p": "Si vous partagez un résumé avec quelqu’un via iCloud, n’invitez que des personnes de confiance. Vous décidez de ce que vous partagez et pouvez arrêter le partage à tout moment. N’utilisez pas le partage pour harceler, faire pression sur une personne ou la surveiller sans son consentement."
+      },
+      {
+        "h": "Utilisation acceptable",
+        "p": "Utilisez Weightly uniquement à des fins personnelles et licites. N’utilisez pas abusivement les achats, offres ou essais (par exemple en contournant les règles d’éligibilité) et ne portez pas atteinte à la sécurité de l’app."
+      },
+      {
+        "h": "Services tiers",
+        "p": "Weightly fonctionne avec des services Apple tels qu’Apple Health, iCloud, Siri et Apple Intelligence, et utilise RevenueCat pour valider les achats. Ces services sont régis par leurs propres conditions. La disponibilité de certaines fonctions dépend de votre appareil, de votre version d’iOS et de votre région."
+      },
+      {
+        "h": "Modifications de l’app",
+        "p": "Nous pouvons mettre à jour, ajouter ou supprimer des fonctions pour améliorer Weightly. Nous ne retirerons pas une fonction PRO que vous avez payée pendant votre période d’abonnement en cours sans proposer une alternative raisonnable."
+      },
+      {
+        "h": "Garantie et responsabilité",
+        "p": "Weightly est fournie « en l’état ». Dans les limites permises par la loi, nous ne sommes pas responsables des dommages indirects ou consécutifs, ni de la perte de données qu’une sauvegarde raisonnable aurait permis d’éviter. Rien dans les présentes conditions ne limite une responsabilité qui ne peut être limitée par la loi, et les droits impératifs dont vous bénéficiez en tant que consommateur dans votre pays de résidence ne sont pas affectés."
+      },
+      {
+        "h": "Modifications des présentes conditions",
+        "p": "Nous pouvons mettre à jour ces conditions lorsque l’app évolue. La date ci-dessus indique la version la plus récente ; les changements importants seront mentionnés dans les notes de version. Si vous continuez à utiliser Weightly après une modification, les conditions mises à jour s’appliquent."
+      },
+      {
+        "h": "Contact",
+        "p": "Des questions sur ces conditions ? Écrivez à ardasnturk@me.com."
+      }
     ]
   },
   "supportPage": {
+    "eyebrow": "Aide",
     "title": "Assistance",
-    "subtitle": "Nous sommes heureux de vous aider. La plupart des réponses sont ci-dessous ; sinon, écrivez-nous.",
-    "contactTitle": "Contact",
-    "contactText": "Envoyez-nous un e-mail : nous répondons en général sous deux jours ouvrés. Pour les questions techniques, indiquez votre modèle d’iPhone et la version d’iOS.",
+    "subtitle": "Nous sommes heureux de vous aider. La plupart des réponses se trouvent ci-dessous ; sinon, écrivez-nous simplement.",
+    "contactTitle": "Parler à une vraie personne",
+    "contactText": "Envoyez-nous un e-mail : nous répondons en général sous deux jours ouvrés. Pour les questions techniques, indiquez votre modèle d’iPhone et la version d’iOS.",
     "emailButton": "Écrire à l’assistance",
     "tipsTitle": "Solutions rapides",
     "tips": [
-      { "q": "Les pesées de ma balance n’apparaissent pas", "a": "Ouvrez l’app Santé › votre profil › Apps › Weightly et autorisez Poids. Vérifiez ensuite que l’app de votre balance écrit dans Santé, puis tirez vers le bas dans Aujourd’hui pour synchroniser." },
-      { "q": "Restaurer mon achat PRO", "a": "Ouvrez Réglages › Weightly PRO › Restaurer les achats. Utilisez le même compte Apple que lors de l’achat." },
-      { "q": "Transférer mes données vers un nouvel iPhone", "a": "Activez la synchro iCloud dans Réglages › Confidentialité, ou exportez une sauvegarde dans Réglages › Vos données et importez-la sur le nouvel iPhone." },
-      { "q": "Importer depuis une autre app", "a": "Exportez un CSV depuis Libra, Happy Scale, Renpho ou Withings, puis choisissez Réglages › Vos données › Importer depuis un fichier dans Weightly." }
+      {
+        "q": "Les pesées de ma balance n’apparaissent pas",
+        "a": "Ouvrez l’app Santé › votre profil › Apps › Weightly et autorisez Poids. Vérifiez que l’app de votre balance écrit dans Apple Health, puis tirez vers le bas dans Aujourd’hui pour synchroniser."
+      },
+      {
+        "q": "Les jours du cycle ne s’affichent pas",
+        "a": "Activez Prise en compte du cycle dans les Réglages et autorisez Flux menstruel (Suivi du cycle) pour Weightly dans l’app Santé."
+      },
+      {
+        "q": "Mon proche ne voit pas ma progression",
+        "a": "Demandez-lui d’ouvrir l’invitation sur un iPhone connecté à iCloud sur lequel Weightly est installée. Dans Réglages › Partager avec un proche, vous pouvez inviter ou gérer des personnes, ou arrêter le partage."
+      },
+      {
+        "q": "Restaurer mon achat PRO",
+        "a": "Ouvrez Réglages › Weightly PRO › Restaurer les achats. Vérifiez que vous êtes connecté avec le même compte Apple que lors de l’achat."
+      },
+      {
+        "q": "Transférer mes données vers un nouvel iPhone",
+        "a": "Activez la synchro iCloud dans Réglages › Confidentialité, ou exportez une sauvegarde dans Réglages › Vos données et importez-la sur le nouvel iPhone."
+      },
+      {
+        "q": "Importer depuis une autre app",
+        "a": "Exportez un CSV depuis Libra, Happy Scale, Renpho ou Withings, puis choisissez Réglages › Vos données › Importer depuis un fichier dans Weightly."
+      }
     ]
   },
   "notFound": {
-    "title": "Page introuvable",
+    "title": "Cette page s’est écartée de sa tendance.",
     "back": "Retour à l’accueil"
   }
 }
