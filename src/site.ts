@@ -4,7 +4,7 @@ export const site = {
   appStoreId: "6746693008",
   appStore: "https://apps.apple.com/app/id6746693008",
   atleva: "https://apps.apple.com/app/id6823949585",
-  email: "ardasnturk@me.com",
+  email: "support@ardasnturk.com",
   author: "Arda Şentürk",
   appleEula: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
   revenueCatPrivacy: "https://www.revenuecat.com/privacy/",
